@@ -1,0 +1,473 @@
+﻿Log file open, 08/06/15 11:16:34
+LogInit:Display: Running engine for game: StealthEscape
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.08.06-01.16.34:919][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.08.06-01.16.34:987][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.06-01.16.35:092][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.06-01.16.35:099][  0]LogInit: Object subsystem initialized
+[2015.08.06-01.16.35:101][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.06-01.16.35:101][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-01.16.35:101][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.06-01.16.35:101][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-01.16.35:101][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.06-01.16.35:101][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-01.16.35:101][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.06-01.16.35:101][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.06-01.16.35:112][  0]LogInit: Computer: I7-DESKTOP
+[2015.08.06-01.16.35:112][  0]LogInit: User: Admin
+[2015.08.06-01.16.35:112][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.06-01.16.35:112][  0]LogInit: High frequency timer resolution =3.515654 MHz
+[2015.08.06-01.16.35:113][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.08.06-01.16.35:113][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.06-01.16.35:113][  0]LogMemory: Process Physical Memory: 51.70 MB used, 51.70 MB peak
+[2015.08.06-01.16.35:113][  0]LogMemory: Process Virtual Memory: 30.33 MB used, 30.33 MB peak
+[2015.08.06-01.16.35:113][  0]LogMemory: Physical Memory: 3949.83 MB used, 8066.43 MB total
+[2015.08.06-01.16.35:113][  0]LogMemory: Virtual Memory: 353.21 MB used, 8388608.00 MB total
+[2015.08.06-01.16.35:131][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.08.06-01.16.35:131][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3777MB of shared system memory, 1 output[s]
+[2015.08.06-01.16.35:131][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.06-01.16.35:135][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.08.06-01.16.35:140][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.06-01.16.36:000][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.06-01.16.36:055][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.08.06-01.16.36:055][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.08.06-01.16.36:120][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.06-01.16.39:997][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-01.16.42:182][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-01.16.42:325][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.06-01.16.42:936][  0]LogDerivedDataCache: Loaded boot cache 0.59s 39MB C:/Users/Admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.06-01.16.42:936][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.08.06-01.16.42:936][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.06-01.16.42:936][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.06-01.16.43:130][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.06-01.16.43:141][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.06-01.16.57:529][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.06-01.16.57:529][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.06-01.17.00:391][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.06-01.17.00:788][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.08.06-01.17.22:830][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.06-01.17.24:676][  0]SourceControl: Info Source control is disabled
+[2015.08.06-01.17.24:676][  0]SourceControl: Info Source control is disabled
+[2015.08.06-01.17.24:676][  0]SourceControl: Info Source control is disabled
+[2015.08.06-01.17.24:676][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.08.06-01.17.24:676][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.08.06-01.17.24:693][  0]SourceControl: Info Source control is disabled
+[2015.08.06-01.17.25:601][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.08.06-01.17.25:601][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.08.06-01.17.26:271][  0]LogEngine: Initializing Engine...
+[2015.08.06-01.17.28:933][  0]LogInit: XAudio2 using 'AMD HDMI Output (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.06-01.17.28:978][  0]LogInit: FAudioDevice initialized.
+[2015.08.06-01.17.29:122][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.06-01.17.29:146][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.06-01.17.29:152][  0]LogInit: Texture streaming: Enabled
+[2015.08.06-01.17.30:342][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.06-01.17.30:342][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.06-01.17.30:342][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.06-01.17.30:342][  0]LogAnalytics: SetUserId 0b171b7540c931a0f620c8b878be6a3a|90dc462d3abe4e908c5e059bf9a6bfe2|0d6894b3-0434-4d10-9239-f3a8220f2c03
+[2015.08.06-01.17.30:343][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.08.06-01.17.30:474][  0]LogInit: Transaction tracking system initialized
+[2015.08.06-01.17.31:072][  0]BlueprintLog: New page: Editor Load
+[2015.08.06-01.17.31:137][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.08.06-01.17.31:150][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.06-01.17.32:539][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-01.17.32:970][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-01.17.33:991][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.06-01.17.34:016][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.08.06-01.17.34:030][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.08.06-01.17.34:030][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2015.08.06-01.17.34:458][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.08.06-01.17.34:460][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.08.06-01.17.34:564][  0]LogConsoleResponse:Display: 
+[2015.08.06-01.17.36:392][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.06-01.17.38:138][  0]SourceControl: Info Source control is disabled
+[2015.08.06-01.17.38:294][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.06-01.17.38:394][  0]LightingResults: New page: Lighting Build
+[2015.08.06-01.17.38:527][  0]MapCheck: New page: Map Check
+[2015.08.06-01.17.38:527][  0]LightingResults: New page: Lighting Build
+[2015.08.06-01.17.38:539][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001889E200
+[2015.08.06-01.17.47:171][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.06-01.17.47:172][  0]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.08.06-01.17.47:206][  0]Cmd: MAP CHECKDEP
+[2015.08.06-01.17.47:206][  0]MapCheck: New page: MuseumLevel - 6 Aug 2015 9:17:47 pm
+[2015.08.06-01.17.47:343][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 136.427ms to complete.
+[2015.08.06-01.17.47:379][  0]LogFileHelpers: Loading map 'MuseumLevel' took 9.085
+[2015.08.06-01.17.47:995][  0]LogCollectionManager: Loaded 0 collections in 0.002656 seconds
+[2015.08.06-01.17.48:047][  0]LogContentBrowser: Native class hierarchy populated in 0.0472 seconds. Added 1696 classes and 261 folders.
+[2015.08.06-01.17.48:302][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0064 seconds. Added 1 classes and 2 folders.
+[2015.08.06-01.17.48:621][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.06-01.17.48:663][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.08.06-01.17.48:697][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.06-01.17.48:837][  0]LogLoad: Full Startup: 77.64 seconds (BP compile: 0.96 seconds)
+[2015.08.06-01.17.49:309][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Enemy'
+[2015.08.06-01.17.49:557][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.08.06-01.17.49:889][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x552 (Frame:5).
+[2015.08.06-01.17.50:693][  3]LogAssetRegistry: Asset discovery search completed in 19.5667 seconds
+[2015.08.06-01.23.36:202][516]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.08.06-01.23.53:467][  8]LogRenderer:Warning: Reallocating scene render targets to support 1208x680 (Frame:2571).
+[2015.08.06-01.24.06:618][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-01.24.06:618][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.08.06-01.24.06:618][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.06-01.24.06:618][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.08.06-01.26.32:078][252]BlueprintLog: New page: Compile BP_Coin
+[2015.08.06-01.26.32:271][252]BlueprintEditorCompileResults: Info [0601.06] Compile of BP_Coin successful! [in 192 ms]
+[2015.08.06-01.27.49:621][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MuseumLevel' took 0.017
+[2015.08.06-01.27.49:655][ 27]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_Coin] ([1] browsable assets)...
+[2015.08.06-01.27.49:684][ 27]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Coin.BP_Coin]
+[2015.08.06-01.27.49:684][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Coin]
+[2015.08.06-01.27.49:685][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Coin" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/BP_Coin_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.08.06-01.27.50:044][ 27]LogSavePackage: Save=357.413452ms
+[2015.08.06-01.27.50:044][ 27]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/BP_Coin_Auto10D3EC71F45C90123604EB085E01CCD17.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/BP_Coin_Auto1.uasset'
+[2015.08.06-01.27.50:058][ 27]LogFileHelpers: Auto-saving content packages took 0.437
+[2015.08.06-01.30.21:840][ 61]LogEditorTransaction: Undo Add Key(s)
+[2015.08.06-01.30.22:809][142]LogEditorTransaction: Undo Add Key(s)
+[2015.08.06-01.30.24:194][306]LogEditorTransaction: Undo Add Key(s)
+[2015.08.06-01.31.03:078][ 71]BlueprintLog: New page: Compile BP_Coin
+[2015.08.06-01.31.03:146][ 71]BlueprintEditorCompileResults: Info [0871.94] Compile of BP_Coin successful! [in 67 ms]
+[2015.08.06-01.31.44:160][392]BlueprintLog: New page: Compile BP_Coin
+[2015.08.06-01.31.44:240][392]BlueprintEditorCompileResults: Info [0913.03] Compile of BP_Coin successful! [in 79 ms]
+[2015.08.06-01.32.31:516][507]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.08.06-01.32.32:775][594]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.08.06-01.32.34:345][662]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.06-01.33.50:945][415]BlueprintLog: New page: Compile BP_Coin
+[2015.08.06-01.33.50:991][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.08.06-01.33.51:040][415]BlueprintEditorCompileResults: Info [1039.83] Compile of BP_Coin successful! [in 94 ms]
+[2015.08.06-01.34.00:375][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-01.34.00:375][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.08.06-01.34.00:397][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000127985E0
+[2015.08.06-01.34.00:460][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Coin" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/BP_Coin.uasset" SILENT=true
+[2015.08.06-01.34.00:773][  3]LogSavePackage: Save=310.687866ms
+[2015.08.06-01.34.00:773][  3]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/BP_Coin53607440432ED86761EFFDB58CDDDAB4.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/BP_Coin.uasset'
+[2015.08.06-01.34.09:359][498]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-01.34.09:362][498]LogPlayLevel: [PIE] Compiling MuseumLevel before PIE...
+[2015.08.06-01.34.09:609][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-01.34.09:609][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.08.06-01.34.09:609][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.06-01.34.09:609][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.08.06-01.34.09:628][498]LogPlayLevel: PIE:  Blueprint regeneration took 268 ms (1 blueprints)
+[2015.08.06-01.34.09:628][498]PIE: New page: PIE session: MuseumLevel (6 Aug 2015 9:34:09 pm)
+[2015.08.06-01.34.09:688][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:688][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:688][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:688][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:688][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:688][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:688][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:688][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:689][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:689][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:689][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:689][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:690][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:690][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:690][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:690][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:690][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:691][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:691][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:691][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:691][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:691][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:691][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:691][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:692][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:692][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:693][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:693][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:693][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:693][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:693][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:693][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:693][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:693][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:694][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:694][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:694][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:694][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:694][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:694][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:695][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:695][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:695][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:695][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:695][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:696][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:696][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:696][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:696][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:696][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:697][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:697][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:697][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:697][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:697][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:697][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:698][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:698][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:698][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:698][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:698][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:698][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:699][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:699][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:699][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:699][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:700][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:700][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:700][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:700][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:700][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:700][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:701][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:701][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:701][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:701][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:701][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:701][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:702][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:702][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:702][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:702][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:702][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:702][498]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-01.34.09:723][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094500s)
+[2015.08.06-01.34.09:724][498]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2015.08.06-01.34.09:724][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MuseumLevel.MuseumLevel to /Game/UEDPIE_0_MuseumLevel.MuseumLevel (0.095594s)
+[2015.08.06-01.34.09:911][498]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.06-01.34.09:942][498]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.08.06-01.34.09:981][498]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.06-01.34.09:981][498]LogWorld: Bringing World /Game/UEDPIE_0_MuseumLevel.MuseumLevel up for play (max tick rate 0) at 2015.08.06-11.34.09
+[2015.08.06-01.34.09:999][498]LogWorld: Bringing up level for play took: 0.056984
+[2015.08.06-01.34.10:019][498]PIE: Info Play in editor start time for /Game/UEDPIE_0_MuseumLevel 0.236
+[2015.08.06-01.34.34:395][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030B83B00
+[2015.08.06-01.38.16:932][ 43]LogSavePackage: Save=938.798035ms
+[2015.08.06-01.38.16:932][ 43]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel_Auto20CC46F5A4518B46D178438BD60F72CAD.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/MuseumLevel_Auto2.umap'
+[2015.08.06-01.38.16:949][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MuseumLevel' took 1.109
+[2015.08.06-01.38.16:949][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.109
+[2015.08.06-01.41.06:109][596]LogEditorViewport: Clicking on Actor (LMB): BP_Coin_C (BP_Coin)
+[2015.08.06-01.41.06:225][600]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sphere)
+[2015.08.06-01.43.03:339][137]BlueprintLog: New page: Compile BP_Coin
+[2015.08.06-01.43.04:018][137]BlueprintEditorCompileResults: Info [1592.80] Compile of BP_Coin successful! [in 678 ms]
+[2015.08.06-01.44.28:350][653]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sphere)
+[2015.08.06-01.44.29:662][726]Cmd: DELETE
+[2015.08.06-01.44.29:662][726]Cmd: ACTOR DELETE
+[2015.08.06-01.44.31:904][852]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sphere)
+[2015.08.06-01.44.34:043][975]Cmd: DELETE
+[2015.08.06-01.44.34:043][975]Cmd: ACTOR DELETE
+[2015.08.06-01.44.39:599][287]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sphere)
+[2015.08.06-01.44.39:929][303]LogEditorViewport: Clicking on Actor (double click): BP_Coin_C (BP_Coin)
+[2015.08.06-01.44.41:831][414]Cmd: DELETE
+[2015.08.06-01.44.41:831][414]Cmd: ACTOR DELETE
+[2015.08.06-01.44.41:842][414]LogEditorActor: Deleted Actor: BP_Coin_C
+[2015.08.06-01.44.42:661][414]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002174F380
+[2015.08.06-01.44.42:714][414]LogEditorActor: Deleted 1 Actors (0.883 secs)
+[2015.08.06-01.44.50:231][630]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026299620
+[2015.08.06-01.44.50:231][630]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AC5A3E0
+[2015.08.06-01.47.20:585][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-01.47.20:585][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.08.06-01.47.20:585][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.08.06-01.47.20:585][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2015.08.06-01.47.20:777][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuseumLevel" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.06-01.47.21:703][257]LogSavePackage: Save=876.651428ms
+[2015.08.06-01.47.21:703][257]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel35BC300749B6B34400BB91829EE28559.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap'
+[2015.08.06-01.47.21:762][257]LogFileHelpers: Saving map 'MuseumLevel' took 1.115
+[2015.08.06-01.47.24:829][406]Cmd: QUIT_EDITOR
+[2015.08.06-01.47.25:261][406]LogExit: Preparing to exit.
+[2015.08.06-01.47.26:267][406]LogExit: Editor shut down
+[2015.08.06-01.47.26:268][406]LogExit: Transaction tracking system shut down
+[2015.08.06-01.47.26:271][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CEABB00
+[2015.08.06-01.47.26:274][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017698E00
+[2015.08.06-01.47.26:274][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000231B2340
+[2015.08.06-01.47.26:274][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000231B0E00
+[2015.08.06-01.47.26:274][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000264A6340
+[2015.08.06-01.47.26:276][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000264A6160
+[2015.08.06-01.47.26:768][406]LogExit: Object subsystem successfully closed.
+[2015.08.06-01.47.27:174][406]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.08.06-01.47.27:182][406]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.08.06-01.47.27:182][406]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.08.06-01.47.27:182][406]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.08.06-01.47.27:182][406]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.08.06-01.47.27:186][406]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.08.06-01.47.27:197][406]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.08.06-01.47.27:197][406]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.08.06-01.47.27:205][406]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.08.06-01.47.27:215][406]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.08.06-01.47.27:223][406]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.08.06-01.47.27:223][406]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.08.06-01.47.27:223][406]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.08.06-01.47.27:223][406]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.08.06-01.47.27:223][406]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.08.06-01.47.27:223][406]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.08.06-01.47.27:224][406]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.08.06-01.47.27:224][406]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.08.06-01.47.27:224][406]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.08.06-01.47.27:224][406]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.08.06-01.47.27:224][406]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.08.06-01.47.27:224][406]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.08.06-01.47.27:249][406]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.08.06-01.47.27:249][406]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.08.06-01.47.27:249][406]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.08.06-01.47.27:249][406]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.08.06-01.47.27:250][406]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.08.06-01.47.27:272][406]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.08.06-01.47.27:273][406]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.08.06-01.47.27:284][406]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.08.06-01.47.27:301][406]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.08.06-01.47.27:301][406]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.08.06-01.47.27:328][406]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.08.06-01.47.27:328][406]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.08.06-01.47.27:329][406]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.08.06-01.47.27:329][406]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.08.06-01.47.27:339][406]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.08.06-01.47.27:351][406]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.08.06-01.47.27:351][406]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.08.06-01.47.27:352][406]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.08.06-01.47.27:352][406]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.08.06-01.47.27:514][406]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.08.06-01.47.27:518][406]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.08.06-01.47.27:532][406]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.08.06-01.47.27:540][406]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.08.06-01.47.27:540][406]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.08.06-01.47.27:540][406]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.08.06-01.47.27:540][406]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.08.06-01.47.27:540][406]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.08.06-01.47.27:562][406]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.08.06-01.47.27:562][406]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.08.06-01.47.27:562][406]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.08.06-01.47.27:572][406]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.08.06-01.47.27:573][406]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.08.06-01.47.27:573][406]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.08.06-01.47.27:573][406]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.08.06-01.47.27:573][406]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.08.06-01.47.27:573][406]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.08.06-01.47.27:573][406]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.08.06-01.47.27:573][406]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.08.06-01.47.27:573][406]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.08.06-01.47.27:573][406]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.08.06-01.47.27:601][406]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.08.06-01.47.27:606][406]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.08.06-01.47.27:606][406]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.08.06-01.47.27:606][406]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.08.06-01.47.27:606][406]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.08.06-01.47.27:611][406]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.08.06-01.47.27:625][406]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.08.06-01.47.27:635][406]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.08.06-01.47.27:636][406]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.08.06-01.47.27:636][406]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.08.06-01.47.27:636][406]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.08.06-01.47.27:636][406]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.08.06-01.47.27:653][406]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.08.06-01.47.27:653][406]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.08.06-01.47.27:653][406]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.08.06-01.47.27:654][406]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.08.06-01.47.27:654][406]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.08.06-01.47.27:654][406]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.08.06-01.47.27:685][406]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.08.06-01.47.27:685][406]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.08.06-01.47.27:685][406]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.08.06-01.47.27:685][406]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.08.06-01.47.27:685][406]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.08.06-01.47.27:685][406]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.06-01.47.27:686][406]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.06-01.47.27:696][406]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.08.06-01.47.27:699][406]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.08.06-01.47.27:799][406]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.08.06-01.47.27:808][406]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.08.06-01.47.27:816][406]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.08.06-01.47.27:816][406]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.08.06-01.47.27:827][406]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.08.06-01.47.27:827][406]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.08.06-01.47.27:827][406]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.08.06-01.47.27:835][406]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.08.06-01.47.27:835][406]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.08.06-01.47.27:842][406]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.08.06-01.47.27:843][406]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.08.06-01.47.27:843][406]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.08.06-01.47.27:843][406]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.08.06-01.47.27:854][406]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.08.06-01.47.27:854][406]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.08.06-01.47.27:854][406]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.08.06-01.47.27:854][406]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.08.06-01.47.27:873][406]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.08.06-01.47.27:973][406]LogDerivedDataCache: Shutdown
+[2015.08.06-01.47.27:973][406]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.08.06-01.47.27:982][406]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.08.06-01.47.27:982][406]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.08.06-01.47.27:992][406]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.06-01.47.27:993][406]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.06-01.47.27:998][406]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.06-01.47.27:998][406]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.06-01.47.27:998][406]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.06-01.47.28:012][406]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.06-01.47.28:012][406]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.06-01.47.28:012][406]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.06-01.47.28:012][406]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.06-01.47.28:012][406]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.06-01.47.28:012][406]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.06-01.47.28:021][406]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.06-01.47.28:025][406]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.06-01.47.28:030][406]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.06-01.47.28:036][406]LogExit: Exiting.
+[2015.08.06-01.47.28:045][406]Log file closed, 08/06/15 11:47:28

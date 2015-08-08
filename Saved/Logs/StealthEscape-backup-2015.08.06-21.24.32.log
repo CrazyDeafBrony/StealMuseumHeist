@@ -1,0 +1,1187 @@
+﻿Log file open, 08/06/15 20:28:50
+LogInit:Display: Running engine for game: StealthEscape
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.08.06-10.28.50:976][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.08.06-10.28.51:030][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.06-10.28.51:044][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.06-10.28.51:052][  0]LogInit: Object subsystem initialized
+[2015.08.06-10.28.51:053][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.06-10.28.51:053][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-10.28.51:053][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.06-10.28.51:053][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-10.28.51:053][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.06-10.28.51:053][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.06-10.28.51:054][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.06-10.28.51:054][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.06-10.28.51:062][  0]LogInit: Computer: I7-DESKTOP
+[2015.08.06-10.28.51:062][  0]LogInit: User: Admin
+[2015.08.06-10.28.51:062][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.06-10.28.51:062][  0]LogInit: High frequency timer resolution =3.515654 MHz
+[2015.08.06-10.28.51:063][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.08.06-10.28.51:063][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.06-10.28.51:063][  0]LogMemory: Process Physical Memory: 51.75 MB used, 51.75 MB peak
+[2015.08.06-10.28.51:063][  0]LogMemory: Process Virtual Memory: 30.36 MB used, 30.36 MB peak
+[2015.08.06-10.28.51:063][  0]LogMemory: Physical Memory: 4357.89 MB used, 8066.43 MB total
+[2015.08.06-10.28.51:063][  0]LogMemory: Virtual Memory: 353.21 MB used, 8388608.00 MB total
+[2015.08.06-10.28.51:080][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.08.06-10.28.51:080][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3777MB of shared system memory, 1 output[s]
+[2015.08.06-10.28.51:080][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.06-10.28.51:085][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.08.06-10.28.51:090][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.06-10.28.51:146][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.06-10.28.51:195][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.08.06-10.28.51:195][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.08.06-10.28.51:269][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.06-10.28.53:569][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-10.28.54:175][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-10.28.54:243][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.06-10.28.55:364][  0]LogDerivedDataCache: Loaded boot cache 1.12s 39MB C:/Users/Admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.06-10.28.55:364][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.08.06-10.28.55:364][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.06-10.28.55:364][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.06-10.28.55:470][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.06-10.28.55:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.06-10.28.55:779][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.06-10.28.55:779][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.06-10.28.56:117][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.06-10.28.56:210][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.08.06-10.28.57:381][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.06-10.28.57:627][  0]SourceControl: Info Source control is disabled
+[2015.08.06-10.28.57:627][  0]SourceControl: Info Source control is disabled
+[2015.08.06-10.28.57:627][  0]SourceControl: Info Source control is disabled
+[2015.08.06-10.28.57:627][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.08.06-10.28.57:627][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.08.06-10.28.57:638][  0]SourceControl: Info Source control is disabled
+[2015.08.06-10.28.57:863][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.08.06-10.28.57:863][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.08.06-10.28.57:942][  0]LogEngine: Initializing Engine...
+[2015.08.06-10.29.00:088][  0]LogInit: XAudio2 using 'AMD HDMI Output (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.06-10.29.00:116][  0]LogInit: FAudioDevice initialized.
+[2015.08.06-10.29.00:160][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.06-10.29.00:209][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.08.06-10.29.00:297][  0]LogInit: Texture streaming: Enabled
+[2015.08.06-10.29.00:644][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.06-10.29.00:644][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.06-10.29.00:644][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.08.06-10.29.00:644][  0]LogAnalytics: SetUserId 0b171b7540c931a0f620c8b878be6a3a|90dc462d3abe4e908c5e059bf9a6bfe2|0d6894b3-0434-4d10-9239-f3a8220f2c03
+[2015.08.06-10.29.00:644][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.08.06-10.29.00:676][  0]LogInit: Transaction tracking system initialized
+[2015.08.06-10.29.00:927][  0]BlueprintLog: New page: Editor Load
+[2015.08.06-10.29.00:967][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
+[2015.08.06-10.29.00:967][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.06-10.29.01:681][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-10.29.02:177][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.06-10.29.02:663][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.06-10.29.02:670][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.08.06-10.29.02:670][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.08.06-10.29.02:670][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2015.08.06-10.29.02:711][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.08.06-10.29.02:712][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.08.06-10.29.02:717][  0]LogConsoleResponse:Display: 
+[2015.08.06-10.29.03:019][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.06-10.29.03:254][  0]SourceControl: Info Source control is disabled
+[2015.08.06-10.29.03:254][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.06-10.29.03:357][  0]LightingResults: New page: Lighting Build
+[2015.08.06-10.29.03:373][  0]MapCheck: New page: Map Check
+[2015.08.06-10.29.03:373][  0]LightingResults: New page: Lighting Build
+[2015.08.06-10.29.03:383][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003F96200
+[2015.08.06-10.29.04:516][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.06-10.29.09:137][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.06-10.29.09:138][  0]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.08.06-10.29.09:139][  0]Cmd: MAP CHECKDEP
+[2015.08.06-10.29.09:139][  0]MapCheck: New page: MuseumLevel - 7 Aug 2015 6:29:09 am
+[2015.08.06-10.29.09:283][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 143.953ms to complete.
+[2015.08.06-10.29.09:283][  0]LogFileHelpers: Loading map 'MuseumLevel' took 6.028
+[2015.08.06-10.29.09:415][  0]LogCollectionManager: Loaded 0 collections in 0.001455 seconds
+[2015.08.06-10.29.09:428][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 1696 classes and 261 folders.
+[2015.08.06-10.29.09:461][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0031 seconds. Added 1 classes and 2 folders.
+[2015.08.06-10.29.09:584][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.06-10.29.09:585][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.08.06-10.29.09:590][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.06-10.29.09:614][  0]LogLoad: Full Startup: 20.74 seconds (BP compile: 1.91 seconds)
+[2015.08.06-10.29.09:651][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.08.06-10.29.09:780][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.08.06-10.29.09:940][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x552 (Frame:7).
+[2015.08.06-10.29.10:304][  4]LogAssetRegistry: Asset discovery search completed in 9.3464 seconds
+[2015.08.06-10.30.27:113][416]BlueprintLog: New page: Compile EndGamePickup
+[2015.08.06-10.30.27:182][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-10.30.27:182][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.08.06-10.30.27:182][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.06-10.30.27:182][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.08.06-10.30.27:233][416]BlueprintEditorCompileResults: Info [0098.36] Compile of EndGamePickup successful! [in 119 ms]
+[2015.08.06-10.30.29:909][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuseumLevel" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.06-10.30.31:090][712]LogSavePackage: Save=1097.237671ms
+[2015.08.06-10.30.31:090][712]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel54010EB640AC5165B5A5E4BC654C68E9.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap'
+[2015.08.06-10.30.31:138][712]LogFileHelpers: Saving map 'MuseumLevel' took 1.375
+[2015.08.06-10.30.31:170][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EndGamePickup" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/Blueprints/EndGamePickup.uasset" SILENT=true
+[2015.08.06-10.30.31:565][712]LogSavePackage: Save=345.649475ms
+[2015.08.06-10.30.31:565][712]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/EndGamePickup424328B944B17F174D24469A83729C6B.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/Blueprints/EndGamePickup.uasset'
+[2015.08.06-10.55.24:685][580]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MuseumLevel' took 0.032
+[2015.08.06-10.55.24:723][580]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/EndGamePickup] ([1] browsable assets)...
+[2015.08.06-10.55.24:763][580]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/EndGamePickup.EndGamePickup]
+[2015.08.06-10.55.24:763][580]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/EndGamePickup]
+[2015.08.06-10.55.25:234][580]LogSavePackage: Save=413.669250ms
+[2015.08.06-10.55.25:235][580]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/EndGamePickup_Auto1FFE45AC24B8071706E4714B514083F6E.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/Blueprints/EndGamePickup_Auto1.uasset'
+[2015.08.06-10.55.25:239][580]LogFileHelpers: Auto-saving content packages took 0.555
+[2015.08.06-10.55.42:701][183]BlueprintLog: New page: Compile EndGamePickup
+[2015.08.06-10.55.42:723][183]LogBlueprint:Error: [compiler] Error The current value of the ' Context ' pin is invalid: 'Context' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.08.06-10.55.42:833][183]LogBlueprint:Warning: [compiler] Warning [1613.95] Compile of EndGamePickup failed. 1 Fatal Issue(s) 0 Warning(s) [in 131 ms]
+[2015.08.06-10.55.42:833][183]BlueprintEditorCompileResults:Error: Error The current value of the ' Context ' pin is invalid: 'Context' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.08.06-10.55.42:833][183]BlueprintEditorCompileResults:Warning: Warning [1613.95] Compile of EndGamePickup failed. 1 Fatal Issue(s) 0 Warning(s) [in 131 ms]
+[2015.08.06-10.56.00:025][197]BlueprintLog: New page: Compile EndGamePickup
+[2015.08.06-10.56.00:110][197]BlueprintEditorCompileResults: Info [1631.22] Compile of EndGamePickup successful! [in 84 ms]
+[2015.08.06-10.56.02:067][428]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-10.56.02:071][428]LogPlayLevel: [PIE] Compiling MuseumLevel before PIE...
+[2015.08.06-10.56.02:407][428]LogPlayLevel: PIE:  Blueprint regeneration took 339 ms (1 blueprints)
+[2015.08.06-10.56.02:407][428]PIE: New page: PIE session: MuseumLevel (7 Aug 2015 6:56:02 am)
+[2015.08.06-10.56.02:475][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:475][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:475][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:475][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:475][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:475][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:475][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:475][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:477][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:477][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:477][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:477][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:478][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:478][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:478][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:478][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:479][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:479][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:479][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:479][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:479][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:479][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:480][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:480][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:480][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:480][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:481][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:481][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:482][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:482][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:482][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:482][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:482][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:482][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:483][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:483][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:483][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:483][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:484][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:484][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:484][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:484][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:484][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:484][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:485][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:485][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:485][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:485][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:486][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:486][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:486][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:486][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:487][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:487][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:487][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:487][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:488][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:488][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:489][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:489][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:489][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:489][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:489][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:489][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:490][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:490][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:490][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:490][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:491][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:491][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:491][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:491][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:492][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:492][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:492][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:492][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:493][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:493][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:493][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:493][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:493][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:493][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:494][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:494][428]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.56.02:525][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118062s)
+[2015.08.06-10.56.02:526][428]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2015.08.06-10.56.02:527][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MuseumLevel.MuseumLevel to /Game/UEDPIE_0_MuseumLevel.MuseumLevel (0.119308s)
+[2015.08.06-10.56.02:678][428]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.06-10.56.02:680][428]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.08.06-10.56.02:725][428]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.06-10.56.02:725][428]LogWorld: Bringing World /Game/UEDPIE_0_MuseumLevel.MuseumLevel up for play (max tick rate 0) at 2015.08.06-20.56.02
+[2015.08.06-10.56.02:734][428]LogWorld: Bringing up level for play took: 0.053267
+[2015.08.06-10.56.02:748][428]PIE: Info Play in editor start time for /Game/UEDPIE_0_MuseumLevel 0.665
+[2015.08.06-10.56.02:787][428]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:1057).
+[2015.08.06-10.56.28:122][994]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012342840
+[2015.08.06-10.57.38:822][644]BlueprintLog: New page: Compile EndGamePickup
+[2015.08.06-10.57.38:902][644]BlueprintEditorCompileResults: Info [1730.02] Compile of EndGamePickup successful! [in 79 ms]
+[2015.08.06-10.57.41:134][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuseumLevel" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.06-10.57.42:444][884]LogSavePackage: Save=1101.182373ms
+[2015.08.06-10.57.42:444][884]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel11B855474ED304AAC49FF4A21F000FD6.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap'
+[2015.08.06-10.57.42:741][884]LogFileHelpers: Saving map 'MuseumLevel' took 1.766
+[2015.08.06-10.57.42:773][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EndGamePickup" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/Blueprints/EndGamePickup.uasset" SILENT=true
+[2015.08.06-10.57.43:152][884]LogSavePackage: Save=350.553558ms
+[2015.08.06-10.57.43:152][884]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/EndGamePickup050D663040A68401B10B7A84D07B3192.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/Blueprints/EndGamePickup.uasset'
+[2015.08.06-10.58.23:242][747]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.08.06-10.58.24:820][916]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-10.58.24:822][916]LogPlayLevel: [PIE] Compiling MuseumLevel before PIE...
+[2015.08.06-10.58.25:152][916]LogPlayLevel: PIE:  Blueprint regeneration took 332 ms (1 blueprints)
+[2015.08.06-10.58.25:152][916]PIE: New page: PIE session: MuseumLevel (7 Aug 2015 6:58:25 am)
+[2015.08.06-10.58.25:225][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:225][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:225][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:225][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:225][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:225][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:225][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:225][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:227][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:227][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:228][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:228][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:229][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:229][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:229][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:229][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:229][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:229][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:229][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:230][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:230][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:230][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:230][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:230][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:231][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:231][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:232][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:232][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:232][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:232][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:232][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:232][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:232][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:232][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:233][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:233][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:233][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:233][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:234][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:234][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:234][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:234][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:234][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:234][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:235][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:235][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:235][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:235][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:235][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:236][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:236][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:236][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:236][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:236][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:237][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:237][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:237][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:237][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:237][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:237][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:238][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:238][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:238][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:238][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:239][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:239][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:239][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:239][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:239][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:239][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:239][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:239][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:240][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:240][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:240][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:240][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:241][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:241][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:241][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:241][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:242][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:242][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:242][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:242][916]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-10.58.25:267][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114039s)
+[2015.08.06-10.58.25:268][916]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2015.08.06-10.58.25:268][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MuseumLevel.MuseumLevel to /Game/UEDPIE_0_MuseumLevel.MuseumLevel (0.114949s)
+[2015.08.06-10.58.25:326][916]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.06-10.58.25:327][916]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.08.06-10.58.25:374][916]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.06-10.58.25:374][916]LogWorld: Bringing World /Game/UEDPIE_0_MuseumLevel.MuseumLevel up for play (max tick rate 0) at 2015.08.06-20.58.25
+[2015.08.06-10.58.25:384][916]LogWorld: Bringing up level for play took: 0.055617
+[2015.08.06-10.58.25:387][916]PIE: Info Play in editor start time for /Game/UEDPIE_0_MuseumLevel 1.304
+[2015.08.06-10.58.34:271][549]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001209A700
+[2015.08.06-11.16.56:841][345]BlueprintLog: New page: Compile EndGamePickup
+[2015.08.06-11.16.56:924][345]BlueprintEditorCompileResults: Info [2888.03] Compile of EndGamePickup successful! [in 83 ms]
+[2015.08.06-11.16.59:441][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuseumLevel" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.06-11.17.00:557][620]LogSavePackage: Save=1055.280518ms
+[2015.08.06-11.17.00:557][620]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevelFB38B1B3405F7548EE18B883085E1319.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap'
+[2015.08.06-11.17.00:639][620]LogFileHelpers: Saving map 'MuseumLevel' took 1.359
+[2015.08.06-11.17.00:664][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EndGamePickup" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/Blueprints/EndGamePickup.uasset" SILENT=true
+[2015.08.06-11.17.01:023][620]LogSavePackage: Save=334.697327ms
+[2015.08.06-11.17.01:023][620]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/EndGamePickup7E8AB13146B692BC637670B3958F31D6.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/Blueprints/EndGamePickup.uasset'
+[2015.08.06-11.18.06:526][748]BlueprintLog: New page: Compile MuseumLevel
+[2015.08.06-11.18.06:839][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.06-11.18.06:839][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.08.06-11.18.06:839][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.06-11.18.06:839][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.08.06-11.18.06:859][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020F72660
+[2015.08.06-11.18.06:873][748]BlueprintEditorCompileResults: Info [2957.97] Compile of MuseumLevel successful! [in 347 ms]
+[2015.08.06-11.18.10:025][ 24]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-11.18.10:054][ 24]LogPlayLevel: [PIE] Compiling MuseumLevel before PIE...
+[2015.08.06-11.18.10:393][ 24]LogPlayLevel: PIE:  Blueprint regeneration took 368 ms (1 blueprints)
+[2015.08.06-11.18.10:394][ 24]PIE: New page: PIE session: MuseumLevel (7 Aug 2015 7:18:10 am)
+[2015.08.06-11.18.10:460][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:460][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:460][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:460][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:460][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:460][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:460][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:460][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:461][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:461][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:462][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:462][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:462][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:462][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:462][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:462][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:463][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:463][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:463][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:463][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:463][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:463][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:464][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:464][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:464][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:464][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:465][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:465][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:465][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:465][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:465][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:465][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:465][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:465][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:466][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:466][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:466][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:466][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:467][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:467][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:467][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:467][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:467][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:467][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:468][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:468][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:468][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:468][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:468][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:468][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:469][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:469][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:469][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:469][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:469][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:469][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:470][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:470][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:470][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:470][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:470][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:470][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:471][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:471][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:471][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:471][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:472][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:472][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:472][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:472][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:472][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:472][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:473][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:473][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:473][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:473][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:473][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:473][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:473][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:473][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:474][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:474][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:474][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:474][ 24]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.10:503][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.108445s)
+[2015.08.06-11.18.10:503][ 24]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2015.08.06-11.18.10:503][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MuseumLevel.MuseumLevel to /Game/UEDPIE_0_MuseumLevel.MuseumLevel (0.109212s)
+[2015.08.06-11.18.10:537][ 24]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.06-11.18.10:539][ 24]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.08.06-11.18.10:582][ 24]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.06-11.18.10:583][ 24]LogWorld: Bringing World /Game/UEDPIE_0_MuseumLevel.MuseumLevel up for play (max tick rate 0) at 2015.08.06-21.18.10
+[2015.08.06-11.18.10:606][ 24]LogWorld: Bringing up level for play took: 0.066978
+[2015.08.06-11.18.10:609][ 24]PIE: Info Play in editor start time for /Game/UEDPIE_0_MuseumLevel 0.515
+[2015.08.06-11.18.19:632][775]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B79C220
+[2015.08.06-11.18.31:771][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuseumLevel" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.06-11.18.33:021][611]LogSavePackage: Save=1194.678467ms
+[2015.08.06-11.18.33:021][611]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel38A90533478BAB64DB216B976CAD9743.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap'
+[2015.08.06-11.18.39:048][765]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-11.18.39:051][765]LogPlayLevel: [PIE] Compiling MuseumLevel before PIE...
+[2015.08.06-11.18.39:388][765]LogPlayLevel: PIE:  Blueprint regeneration took 340 ms (1 blueprints)
+[2015.08.06-11.18.39:388][765]PIE: New page: PIE session: MuseumLevel (7 Aug 2015 7:18:39 am)
+[2015.08.06-11.18.39:455][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:455][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:455][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:455][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:455][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:455][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:456][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:456][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:457][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:457][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:457][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:457][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:458][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:458][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:458][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:458][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:459][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:459][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:459][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:459][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:459][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:460][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:460][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:460][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:460][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:460][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:461][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:461][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:462][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:462][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:462][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:462][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:462][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:462][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:462][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:463][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:463][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:463][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:464][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:464][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:464][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:464][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:464][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:464][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:465][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:465][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:465][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:465][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:466][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:466][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:466][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:466][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:466][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:466][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:467][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:467][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:467][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:467][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:468][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:468][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:468][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:468][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:469][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:469][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:469][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:469][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:469][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:470][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:470][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:470][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:470][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:470][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:471][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:471][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:471][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:471][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:471][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:471][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:472][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:472][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:472][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:472][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:472][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:472][765]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.18.39:500][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.111999s)
+[2015.08.06-11.18.39:501][765]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2015.08.06-11.18.39:501][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MuseumLevel.MuseumLevel to /Game/UEDPIE_0_MuseumLevel.MuseumLevel (0.113000s)
+[2015.08.06-11.18.39:533][765]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.06-11.18.39:535][765]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.08.06-11.18.39:577][765]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.06-11.18.39:577][765]LogWorld: Bringing World /Game/UEDPIE_0_MuseumLevel.MuseumLevel up for play (max tick rate 0) at 2015.08.06-21.18.39
+[2015.08.06-11.18.39:586][765]LogWorld: Bringing up level for play took: 0.051036
+[2015.08.06-11.18.39:590][765]PIE: Info Play in editor start time for /Game/UEDPIE_0_MuseumLevel 1.496
+[2015.08.06-11.18.43:961][120]LogPackageName: SearchForPackageOnDisk took   0.089s to resolve GOPage.umap
+[2015.08.06-11.18.44:047][121]LogPackageName: SearchForPackageOnDisk took   0.079s to resolve GOPage.umap
+[2015.08.06-11.18.44:047][121]LogNet: Browse: /Game/GOPage
+[2015.08.06-11.18.44:047][121]LogLoad: LoadMap: /Game/GOPage
+[2015.08.06-11.18.44:078][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026CFA2A0
+[2015.08.06-11.18.44:078][121]Cmd: MEM
+[2015.08.06-11.18.44:098][121]LogMemory: Platform Memory Stats for Windows
+[2015.08.06-11.18.44:098][121]LogMemory: Process Physical Memory: 695.64 MB used, 707.02 MB peak
+[2015.08.06-11.18.44:098][121]LogMemory: Process Virtual Memory: 593.30 MB used, 601.57 MB peak
+[2015.08.06-11.18.44:098][121]LogMemory: Physical Memory: 5411.06 MB used, 8066.43 MB total
+[2015.08.06-11.18.44:098][121]LogMemory: Virtual Memory: 1178.20 MB used, 8388608.00 MB total
+[2015.08.06-11.18.44:098][121]LogMemory: 
+[2015.08.06-11.18.44:098][121]Allocator Stats for TBB: (not implemented)
+[2015.08.06-11.18.44:749][121]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.06-11.18.44:821][121]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.06-11.18.44:822][121]LogAIModule: Creating AISystem for world GOPage
+[2015.08.06-11.18.44:823][121]LogWorld: Bringing World /Game/UEDPIE_0_GOPage.GOPage up for play (max tick rate 0) at 2015.08.06-21.18.44
+[2015.08.06-11.18.44:824][121]LogWorld: Bringing up level for play took: 0.000988
+[2015.08.06-11.18.44:824][121]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.08.06-11.18.44:830][121]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.44:851][122]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.44:860][123]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.44:868][124]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.44:876][125]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.44:885][126]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.44:898][127]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.44:967][128]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.44:978][129]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.44:995][130]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:009][131]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:017][132]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:026][133]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:041][134]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:049][135]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:057][136]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:066][137]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:074][138]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:082][139]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:091][140]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:099][141]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:107][142]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:116][143]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:124][144]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:132][145]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:141][146]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:149][147]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:157][148]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:166][149]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:174][150]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:183][151]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:191][152]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:201][153]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:209][154]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:217][155]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:226][156]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:234][157]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:243][158]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:251][159]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:259][160]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:268][161]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:278][162]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:287][163]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:296][164]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:305][165]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:313][166]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:322][167]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:330][168]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:339][169]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:347][170]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:356][171]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:364][172]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:375][173]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:383][174]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:392][175]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:401][176]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:409][177]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:418][178]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:426][179]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:435][180]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:443][181]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:453][182]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:461][183]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:470][184]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:478][185]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:487][186]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:495][187]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:504][188]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:512][189]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:521][190]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:530][191]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:538][192]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:547][193]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:555][194]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:564][195]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:573][196]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:581][197]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:590][198]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:599][199]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:607][200]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:615][201]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:624][202]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:633][203]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:642][204]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:650][205]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:659][206]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:667][207]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:676][208]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:684][209]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:693][210]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:701][211]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:710][212]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:719][213]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:728][214]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:736][215]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:744][216]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:754][217]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:762][218]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:770][219]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:779][220]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:788][221]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:796][222]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:805][223]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:813][224]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:823][225]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:831][226]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:840][227]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:848][228]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:856][229]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:865][230]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:874][231]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:882][232]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:891][233]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:900][234]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:908][235]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:916][236]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:925][237]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:934][238]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:943][239]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:951][240]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:959][241]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:968][242]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:977][243]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:986][244]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.45:994][245]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:002][246]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:013][247]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:024][248]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:032][249]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:043][250]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:052][251]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:060][252]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:069][253]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:077][254]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:086][255]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:094][256]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:103][257]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:111][258]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:121][259]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:129][260]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:138][261]LogScript:Warning: Accessed None 'MyCharacter'
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
+	Function /Game/HUD.HUD_C:GetText_0:0036
+[2015.08.06-11.18.46:216][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003370AA20
+[2015.08.06-11.19.24:538][330]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.08.06-11.19.24:538][330]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.08.06-11.19.24:538][330]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.08.06-11.19.38:203][222]LogMetaData: Removing '/Game/GameWinPage.SKEL_GameWinPage_C' ref from Metadata '/Game/GameOverMenu_2.PackageMetaData'
+[2015.08.06-11.19.38:203][222]LogMetaData: Removing '/Game/GameWinPage.GameWinPage_C' ref from Metadata '/Game/GameOverMenu_2.PackageMetaData'
+[2015.08.06-11.19.38:258][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameWinPage" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GameWinPage.uasset" SILENT=true
+[2015.08.06-11.19.38:286][222]LogSavePackage: Save=25.863750ms
+[2015.08.06-11.19.38:286][222]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/GameWinPage07AE49C4481A0595B5AC65B7E54FE9D4.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GameWinPage.uasset'
+[2015.08.06-11.19.49:118][937]LogMetaData: Removing '/Game/GameWin.SKEL_GameWin_C' ref from Metadata '/Game/GOPage_2.PackageMetaData'
+[2015.08.06-11.19.49:118][937]LogMetaData: Removing '/Game/GameWin.GameWin_C' ref from Metadata '/Game/GOPage_2.PackageMetaData'
+[2015.08.06-11.19.49:332][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameWin" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GameWin.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.06-11.19.49:417][937]LogSavePackage: Save=60.167183ms
+[2015.08.06-11.19.49:417][937]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/GameWin48F195C24F4695C43184588486CC04CC.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GameWin.umap'
+[2015.08.06-11.19.49:422][937]LogFileHelpers: Saving map 'GameWin' took 0.253
+[2015.08.06-11.21.51:824][311]BlueprintLog: New page: Compile MuseumLevel
+[2015.08.06-11.21.52:164][311]BlueprintEditorCompileResults: Info [3183.26] Compile of MuseumLevel successful! [in 339 ms]
+[2015.08.06-11.22.48:596][164]BlueprintLog: New page: Compile GameWinPage
+[2015.08.06-11.22.48:682][164]BlueprintEditorCompileResults: Info [3239.78] Compile of GameWinPage successful! [in 86 ms]
+[2015.08.06-11.22.51:064][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameWinPage" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GameWinPage.uasset" SILENT=true
+[2015.08.06-11.22.51:125][444]LogSavePackage: Save=25.686829ms
+[2015.08.06-11.22.51:125][444]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/GameWinPageD7C093AE48A1F2858F7040BAA245B259.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GameWinPage.uasset'
+[2015.08.06-11.22.53:959][777]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000326D6C00
+[2015.08.06-11.22.54:148][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuseumLevel" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.08.06-11.22.55:336][777]LogSavePackage: Save=1112.644775ms
+[2015.08.06-11.22.55:336][777]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel86CC76414737B4B5DFAF888AC4E092DF.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap'
+[2015.08.06-11.22.55:394][777]LogFileHelpers: Saving map 'MuseumLevel' took 1.398
+[2015.08.06-11.22.55:416][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameOverMenu_2" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GameOverMenu_2.uasset" SILENT=true
+[2015.08.06-11.22.55:422][777]LogSavePackage: Save=3.276489ms
+[2015.08.06-11.22.55:422][777]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/GameOverMenu_24647FC35438C0A628526C4A044B8B78D.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GameOverMenu_2.uasset'
+[2015.08.06-11.22.55:432][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GOPage_2" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GOPage_2.uasset" SILENT=true
+[2015.08.06-11.22.55:438][777]LogSavePackage: Save=3.290426ms
+[2015.08.06-11.22.55:438][777]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/GOPage_29EF3115C42F669A2EAA29789128865A9.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/GOPage_2.uasset'
+[2015.08.06-11.22.57:747][948]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.06-11.22.57:774][948]LogPlayLevel: [PIE] Compiling MuseumLevel before PIE...
+[2015.08.06-11.22.58:087][948]LogPlayLevel: [PIE] Compiling GOPage before PIE...
+[2015.08.06-11.22.58:139][948]LogPlayLevel: [PIE] Compiling GameWin before PIE...
+[2015.08.06-11.22.58:207][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000326D4360
+[2015.08.06-11.22.58:216][948]LogPlayLevel: PIE:  Blueprint regeneration took 468 ms (3 blueprints)
+[2015.08.06-11.22.58:217][948]PIE: New page: PIE session: MuseumLevel (7 Aug 2015 7:22:58 am)
+[2015.08.06-11.22.58:311][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:311][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:311][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:311][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:311][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:311][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:311][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:311][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:312][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:313][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:313][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:313][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:314][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:314][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:314][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:314][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:314][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:314][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:315][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:315][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:315][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:315][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:316][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:316][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:316][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:316][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:318][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:318][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:318][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:318][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:318][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:318][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:318][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:318][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:319][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:319][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:319][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:319][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:320][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:320][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:320][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:320][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:321][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:321][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:321][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:321][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:321][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:321][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:322][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:322][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:323][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:323][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:323][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:323][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:323][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:323][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:324][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:324][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:325][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:325][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:325][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:325][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:325][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:325][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:326][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:326][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:327][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:327][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:327][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:327][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:328][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:328][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:328][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:328][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:329][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:329][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:329][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:329][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:329][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:329][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:330][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:330][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:330][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:331][948]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.08.06-11.22.58:361][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144484s)
+[2015.08.06-11.22.58:362][948]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2015.08.06-11.22.58:362][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MuseumLevel.MuseumLevel to /Game/UEDPIE_0_MuseumLevel.MuseumLevel (0.145418s)
+[2015.08.06-11.22.58:396][948]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.08.06-11.22.58:397][948]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.08.06-11.22.58:453][948]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.08.06-11.22.58:453][948]LogWorld: Bringing World /Game/UEDPIE_0_MuseumLevel.MuseumLevel up for play (max tick rate 0) at 2015.08.06-21.22.58
+[2015.08.06-11.22.58:463][948]LogWorld: Bringing up level for play took: 0.065787
+[2015.08.06-11.22.58:468][948]PIE: Info Play in editor start time for /Game/UEDPIE_0_MuseumLevel 0.371
+[2015.08.06-11.23.02:253][266]LogPackageName: SearchForPackageOnDisk took   0.084s to resolve GameWin.umap
+[2015.08.06-11.23.02:343][267]LogPackageName: SearchForPackageOnDisk took   0.083s to resolve GameWin.umap
+[2015.08.06-11.23.02:343][267]LogNet: Browse: /Game/GameWin
+[2015.08.06-11.23.02:343][267]LogLoad: LoadMap: /Game/GameWin
+[2015.08.06-11.23.02:376][267]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000390444A0
+[2015.08.06-11.23.02:376][267]Cmd: MEM
+[2015.08.06-11.23.02:400][267]LogMemory: Platform Memory Stats for Windows
+[2015.08.06-11.23.02:400][267]LogMemory: Process Physical Memory: 828.11 MB used, 833.98 MB peak
+[2015.08.06-11.23.02:400][267]LogMemory: Process Virtual Memory: 727.75 MB used, 732.51 MB peak
+[2015.08.06-11.23.02:400][267]LogMemory: Physical Memory: 5611.96 MB used, 8066.43 MB total
+[2015.08.06-11.23.02:400][267]LogMemory: Virtual Memory: 1312.48 MB used, 8388608.00 MB total
+[2015.08.06-11.23.02:400][267]LogMemory: 
+[2015.08.06-11.23.02:400][267]Allocator Stats for TBB: (not implemented)
+[2015.08.06-11.23.02:402][267]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.08.06-11.23.02:522][267]LogCrashTracker: 
+
+
+[2015.08.06-11.24.15:826][267]LogCrashTracker: 
+
+
+[2015.08.06-11.24.15:826][267]LogWindows: === Critical error: ===
+Assertion failed: (CastChecked<UPackage>(WorldContext.World()->GetOutermost())->PackageFlags & PKG_PlayInEditor) == PKG_PlayInEditor [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp] [Line: 8948] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefc24b3dd) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() (0x000007fed2308074) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:95]
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() (0x000007fed2187878) + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:144]
+UE4Editor-Core.dll!FDebug::AssertFailed() (0x000007fed2168b17) + 62 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:224]
+UE4Editor-Engine.dll!UEngine::LoadMap() (0x000007fec9464c25) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\unrealengine.cpp:8949]
+UE4Editor-Engine.dll!UEngine::Browse() (0x000007fec94303d2) + 40 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\unrealengine.cpp:8144]
+UE4Editor-Engine.dll!UEngine::TickWorldTravel() (0x000007fec947bd8d) + 63 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\unrealengine.cpp:8311]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() (0x000007fecbccde05) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\editor.cpp:1267]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() (0x000007fecc188306) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\unrealedengine.cpp:347]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013fe30263) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2257]
+UE4Editor.exe!GuardedMain() (0x000000013fe2267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013fe226ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x000000013fe32219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013fe33159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x00000000771f59cd) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007742b981) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x000000007742b981) + 0 bytes [UnknownFile:0]
+
+
+[2015.08.06-11.24.15:917][267]LogExit: Executing StaticShutdownAfterError
+[2015.08.06-11.24.16:657][267]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.08.06-11.24.16:657][267]Log file closed, 08/06/15 21:24:16
