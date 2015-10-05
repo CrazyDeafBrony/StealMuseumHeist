@@ -1,8 +1,8 @@
 ------------------
 System Information
 ------------------
-Time of this report: 8/4/2015, 10:47:09
-       Machine name: LAB-SEFS515-01
+Time of this report: 9/22/2015, 12:14:07
+       Machine name: LAB-SEFS515-21
    Operating System: Windows 8.1 Enterprise 64-bit (6.3, Build 9600) (9600.winblue_r9.150322-1500)
            Language: English (Regional Setting: English)
 System Manufacturer: Alienware
@@ -11,7 +11,7 @@ System Manufacturer: Alienware
           Processor: Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz (12 CPUs), ~3.3GHz
              Memory: 32768MB RAM
 Available OS Memory: 32686MB RAM
-          Page File: 6328MB used, 31222MB available
+          Page File: 6326MB used, 31223MB available
         Windows Dir: C:\WINDOWS
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -130,7 +130,7 @@ Hybrid Graphics GPU: Not Supported
 -------------
 Sound Devices
 -------------
-            Description: DELL S2340T-4 (NVIDIA High Definition Audio)
+            Description: DELL S2340T-4 (2- NVIDIA High Definition Audio)
  Default Sound Playback: Yes
  Default Voice Playback: Yes
             Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0040&SUBSYS_10DE0969&REV_1001
@@ -183,43 +183,10 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
-            Description: Microphone (Realtek USB2.0 MIC)
-  Default Sound Capture: Yes
-  Default Voice Capture: Yes
-            Driver Name: USBAUDIO.sys
-         Driver Version: 6.03.9600.16490 (English)
-      Driver Attributes: Final Retail
-          Date and Size: 12/13/2013 17:24:20, 121088 bytes
-              Cap Flags: 0x1
-           Format Flags: 0xFFFFF
-
 ---------------------
 Video Capture Devices
-Number of Devices: 1
+Number of Devices: 0
 ---------------------
-           FriendlyName: DELL S2340T Webcam
-               Location: n/a
-           SymbolicLink: \\?\usb#vid_0bda&pid_570a&mi_00#8&10f1042c&1&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global
-           Manufacturer: Microsoft
-             HardwareID: USB\VID_0BDA&PID_570A&REV_2903&MI_00,USB\VID_0BDA&PID_570A&MI_00
-             DriverDesc: USB Video Device
-         DriverProvider: Microsoft
-          DriverVersion: 6.3.9600.17217
-      DriverDateEnglish: 6/21/2006 00:00:00
-    DriverDateLocalized: 21/06/2006 12:00:00 AM
-                Service: usbvideo
-                  Class: Image
-          DevNodeStatus: 180200A[DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER]
-            ContainerId: {F5F71654-D226-5099-A6EF-C6506336FD6F}
-            ProblemCode: No Problem
-  BusReportedDeviceDesc: DELL S2340T Webcam
-                 Parent: USB\VID_0BDA&PID_570A\201209030001
-      DriverProblemDesc: n/a
-           UpperFilters: n/a
-           LowerFilters: n/a
-                  Stack: \Driver\ksthunk,\Driver\usbvideo,\Driver\usbccgp
-      ContainerCategory: Imaging
-
 -------------------
 DirectInput Devices
 -------------------
@@ -235,22 +202,16 @@ Vendor/Product ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
-      Device Name: AlienFx Backlight
+      Device Name: Controller (XBOX 360 For Windows)
          Attached: 1
     Controller ID: 0x0
-Vendor/Product ID: 0x187C, 0x0516
+Vendor/Product ID: 0x045E, 0x028E
         FF Driver: n/a
 
-      Device Name: AlienFx Backlight
+      Device Name: Alienware TactX ™ Keyboard
          Attached: 1
     Controller ID: 0x0
-Vendor/Product ID: 0x187C, 0x0516
-        FF Driver: n/a
-
-      Device Name: 3M MicroTouch USB controller
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x0596, 0x0524
+Vendor/Product ID: 0x187C, 0x0517
         FF Driver: n/a
 
       Device Name: Alienware TactX ™ Keyboard
@@ -265,10 +226,16 @@ Vendor/Product ID: 0x187C, 0x0517
 Vendor/Product ID: 0x187C, 0x0516
         FF Driver: n/a
 
-      Device Name: Alienware TactX ™ Keyboard
+      Device Name: AlienFx Backlight
          Attached: 1
     Controller ID: 0x0
-Vendor/Product ID: 0x187C, 0x0517
+Vendor/Product ID: 0x187C, 0x0516
+        FF Driver: n/a
+
+      Device Name: AlienFx Backlight
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x187C, 0x0516
         FF Driver: n/a
 
 Poll w/ Interrupt: No
@@ -293,7 +260,7 @@ USB Devices
 | | 
 | +-+ Generic USB Hub
 | | | Vendor/Product ID: 0x04B4, 0x6560
-| | | Location: Port_#0006.Hub_#0008
+| | | Location: Port_#0006.Hub_#0005
 | | | Matching Device ID: USB\Class_09
 | | | Service: usbhub
 | | | Driver: usbhub.sys, 7/25/2014 01:28:38, 419648 bytes
@@ -301,7 +268,7 @@ USB Devices
 | | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x0461, 0x4D65
-| | | Location: Port_#0001.Hub_#0008
+| | | Location: Port_#0004.Hub_#0005
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 3/6/2014 19:24:15, 33280 bytes
@@ -317,7 +284,7 @@ USB Devices
 | | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x187C, 0x0513
-| | | Location: Port_#0005.Hub_#0008
+| | | Location: Port_#0005.Hub_#0005
 | | | Matching Device ID: USB\Class_03
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 3/6/2014 19:24:15, 33280 bytes
@@ -330,7 +297,7 @@ USB Devices
 | | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x187C, 0x0516
-| | | Location: Port_#0004.Hub_#0008
+| | | Location: Port_#0002.Hub_#0005
 | | | Matching Device ID: USB\Class_03
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 3/6/2014 19:24:15, 33280 bytes
@@ -369,31 +336,24 @@ PS/2 Devices
 | Service: kbdhid
 | Driver: kbdhid.sys, 11/4/2014 16:54:47, 32256 bytes
 | Driver: kbdclass.sys, 11/5/2014 05:25:09, 59712 bytes
-| 
-+ HID-compliant mouse
-| Vendor/Product ID: 0x0596, 0x0524
-| Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| Service: mouhid
-| Driver: mouhid.sys, 11/4/2014 16:54:47, 30208 bytes
-| Driver: mouclass.sys, 11/5/2014 05:25:09, 51008 bytes
 
 ------------------------
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 67.7 GB
+ Free Space: 66.6 GB
 Total Space: 183.1 GB
 File System: NTFS
       Model: SanDisk SDSSDX240GG25
 
       Drive: W:
- Free Space: 755.2 GB
+ Free Space: 613.2 GB
 Total Space: 953.9 GB
 File System: NTFS
       Model: ST31000524AS
 
       Drive: Y:
- Free Space: 45.7 GB
+ Free Space: 45.6 GB
 Total Space: 45.8 GB
 File System: NTFS
       Model: SanDisk SDSSDX240GG25
@@ -920,9 +880,6 @@ CCITT A-Law,0x00200000,1,1,quartz.dll,6.06.9600.17415
 CCITT u-Law,0x00200000,1,1,quartz.dll,6.06.9600.17415
 MPEG Layer-3,0x00200000,1,1,quartz.dll,6.06.9600.17415
 
-Audio Capture Sources:
-Microphone (Realtek USB2.0 MIC),0x00200000,0,0,qcap.dll,6.06.9600.16384
-
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,6.06.9600.17415
 PBDA ETFilter,0x00200000,0,0,CPFilters.dll,6.06.9600.17415
@@ -933,12 +890,10 @@ Default MidiOut Device,0x00800000,1,0,quartz.dll,6.06.9600.17415
 Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,6.06.9600.17415
 
 WDM Streaming Capture Devices:
-Realtek USB2.0 MIC,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
 Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
 Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
 Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
 ,0x00000000,0,0,,
-DELL S2340T Webcam,0x00200000,1,2,ksproxy.ax,6.03.9600.17415
 
 WDM Streaming Rendering Devices:
 Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
@@ -951,9 +906,6 @@ Microsoft DVBC Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.9600.17415
 Microsoft DVBS Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.9600.17415
 Microsoft DVBT Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.9600.17415
 Microsoft Network Provider,0x00200000,0,1,MSNP.ax,6.06.9600.17415
-
-Video Capture Sources:
-DELL S2340T Webcam,0x00200000,1,2,ksproxy.ax,6.03.9600.17415
 
 Multi-Instance Capable VBI Codecs:
 VBI Codec,0x00600000,1,4,VBICodec.ax,6.06.9600.17415
@@ -972,11 +924,11 @@ WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,6.03.9600.17415
 
 Audio Renderers:
-DELL S2340T-4 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.17415
+DELL S2340T-4 (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.17415
 Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.9600.17415
 Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.9600.17415
+DirectSound: DELL S2340T-4 (2- NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.17415
 DirectSound: Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.17415
-DirectSound: DELL S2340T-4 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.17415
 Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.9600.17415
 
 
@@ -1338,6 +1290,82 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
+Fault bucket 90675984682, type 5
+Event Name: IMECustomerEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: IPX Assertion
+P2: 0JPN
+P3: JpnIME.exe
+P4: 6.3.9600.17415
+P5: JpnIME.exe
+P6: 6.3.9600.17415
+P7: Windows\feime\Modern\IMEexe\common\CImeKeyboardInputProvider.h
+P8: 489
+P9: 
+P10: 
+
+
++++ WER1 +++:
+Fault bucket 90676025190, type 5
+Event Name: IMECustomerEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: IPX Assertion
+P2: 0KOR
+P3: KorIME.exe
+P4: 6.3.9600.17415
+P5: KorIME.exe
+P6: 6.3.9600.17415
+P7: Windows\feime\Modern\IMEexe\common\CImeKeyboardInputProvider.h
+P8: 489
+P9: 
+P10: 
+
+
++++ WER2 +++:
+Fault bucket , type 0
+Event Name: IMECustomerEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: IPX Assertion
+P2: 0JPN
+P3: JpnIME.exe
+P4: 6.3.9600.17415
+P5: JpnIME.exe
+P6: 6.3.9600.17415
+P7: Windows\feime\Modern\IMEexe\common\CImeKeyboardInputProvider.h
+P8: 489
+P9: 
+P10: 
+
+
++++ WER3 +++:
+Fault bucket , type 0
+Event Name: IMECustomerEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: IPX Assertion
+P2: 0KOR
+P3: KorIME.exe
+P4: 6.3.9600.17415
+P5: KorIME.exe
+P6: 6.3.9600.17415
+P7: Windows\feime\Modern\IMEexe\common\CImeKeyboardInputProvider.h
+P8: 489
+P9: 
+P10: 
+
+
++++ WER4 +++:
 Fault bucket 124599487309, type 5
 Event Name: WindowsUpdateFailure3
 Response: Not available
@@ -1356,7 +1384,7 @@ P9: {7971F918-A847-4430-9279-4A52D1EFE18D}
 P10: 0
 
 
-+++ WER1 +++:
++++ WER5 +++:
 Fault bucket , type 0
 Event Name: WindowsUpdateFailure3
 Response: Not available
@@ -1375,7 +1403,7 @@ P9: {7971F918-A847-4430-9279-4A52D1EFE18D}
 P10: 0
 
 
-+++ WER2 +++:
++++ WER6 +++:
 Fault bucket , type 0
 Event Name: WindowsUpdateFailure3
 Response: Not available
@@ -1394,99 +1422,23 @@ P9: {7971F918-A847-4430-9279-4A52D1EFE18D}
 P10: 0
 
 
-+++ WER3 +++:
-Fault bucket 128869816767, type 5
-Event Name: RADAR_PRE_LEAK_64
++++ WER7 +++:
+Fault bucket , type 0
+Event Name: PDUWICA
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: EpicGamesLauncher.exe
-P2: 2.3.2.0
-P3: 6.3.9600.2.0.0
-P4: 
-P5: 
+P1: 4
+P2: 2.3
+P3: 6.3.0.0
+P4: 3081
+P5: 97
 P6: 
 P7: 
 P8: 
 P9: 
 P10: 
-
-
-+++ WER4 +++:
-Fault bucket 124599930101, type 5
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 7.9.9600.17930
-P2: 80240440
-P3: 00000000-0000-0000-0000-000000000000
-P4: Scan
-P5: 0
-P6: 1
-P7: 0
-P8: Device Driver Retrieval Client
-P9: {9482F4B4-E343-43B6-B170-9A65BC822C77}
-P10: 0
-
-
-+++ WER5 +++:
-Fault bucket 124601088857, type 5
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 7.9.9600.17930
-P2: 8024402f
-P3: 00000000-0000-0000-0000-000000000000
-P4: Scan
-P5: 0
-P6: 1
-P7: 80072efe
-P8: Device Driver Retrieval Client
-P9: {9482F4B4-E343-43B6-B170-9A65BC822C77}
-P10: 0
-
-
-+++ WER6 +++:
-Fault bucket 124601103631, type 5
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 7.9.9600.17930
-P2: 80240440
-P3: 00000000-0000-0000-0000-000000000000
-P4: Scan
-P5: 0
-P6: 1
-P7: 0
-P8: AutomaticUpdates
-P9: {117CAB2D-82B1-4B5A-A08C-4D62DBEE7782}
-P10: 0
-
-
-+++ WER7 +++:
-Fault bucket 124601103631, type 5
-Event Name: WindowsUpdateFailure3
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 7.9.9600.17930
-P2: 80240440
-P3: 00000000-0000-0000-0000-000000000000
-P4: Scan
-P5: 0
-P6: 1
-P7: 0
-P8: AutomaticUpdates
-P9: {117CAB2D-82B1-4B5A-A08C-4D62DBEE7782}
-P10: 0
 
 
 +++ WER8 +++:
@@ -1509,7 +1461,7 @@ P10: 0
 
 
 +++ WER9 +++:
-Fault bucket 124599487309, type 5
+Fault bucket , type 0
 Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0

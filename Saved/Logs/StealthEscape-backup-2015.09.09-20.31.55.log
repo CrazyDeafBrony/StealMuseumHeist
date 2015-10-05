@@ -1,0 +1,1285 @@
+﻿Log file open, 09/09/15 15:24:38
+LogInit:Display: Running engine for game: StealthEscape
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.09.09-05.24.38:671][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.09.09-05.24.38:728][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.09-05.24.38:785][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.09-05.24.38:792][  0]LogInit: Object subsystem initialized
+[2015.09.09-05.24.38:794][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.09-05.24.38:794][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.09-05.24.38:794][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.09-05.24.38:794][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.09-05.24.38:794][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.09-05.24.38:794][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.09-05.24.38:794][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.09-05.24.38:794][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.09-05.24.38:816][  0]LogInit: Computer: I7-DESKTOP
+[2015.09.09-05.24.38:816][  0]LogInit: User: Admin
+[2015.09.09-05.24.38:816][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.09-05.24.38:816][  0]LogInit: High frequency timer resolution =3.515654 MHz
+[2015.09.09-05.24.38:817][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.09.09-05.24.38:817][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-05.24.38:817][  0]LogMemory: Process Physical Memory: 51.98 MB used, 51.98 MB peak
+[2015.09.09-05.24.38:817][  0]LogMemory: Process Virtual Memory: 32.36 MB used, 32.36 MB peak
+[2015.09.09-05.24.38:817][  0]LogMemory: Physical Memory: 4849.14 MB used, 8066.43 MB total
+[2015.09.09-05.24.38:817][  0]LogMemory: Virtual Memory: 354.35 MB used, 8388608.00 MB total
+[2015.09.09-05.24.38:875][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.09.09-05.24.38:875][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3777MB of shared system memory, 1 output[s]
+[2015.09.09-05.24.38:875][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.09-05.24.38:880][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.09.09-05.24.38:885][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.09-05.24.39:089][  0]LogTextLocalizationManager: The requested culture ('en_AU') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.09-05.24.39:415][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.09.09-05.24.39:415][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.09.09-05.24.39:514][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.09-05.24.43:044][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.09-05.24.44:048][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.09-05.24.44:117][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.09-05.24.45:588][  0]LogDerivedDataCache: Loaded boot cache 1.47s 44MB C:/Users/Admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.09.09-05.24.45:588][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.09.09-05.24.45:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.09-05.24.45:588][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.09-05.24.45:754][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.09-05.24.45:766][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.09-05.24.48:494][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.09-05.24.48:494][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.09-05.24.49:017][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.09-05.24.49:376][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.09.09-05.25.05:077][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.09-05.25.05:646][  0]SourceControl: Info Source control is disabled
+[2015.09.09-05.25.05:646][  0]SourceControl: Info Source control is disabled
+[2015.09.09-05.25.05:646][  0]SourceControl: Info Source control is disabled
+[2015.09.09-05.25.05:646][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.09.09-05.25.05:646][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.09.09-05.25.05:659][  0]SourceControl: Info Source control is disabled
+[2015.09.09-05.25.06:326][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.09.09-05.25.06:326][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.09.09-05.25.06:472][  0]LogEngine: Initializing Engine...
+[2015.09.09-05.25.08:801][  0]LogInit: XAudio2 using 'AMD HDMI Output (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.09-05.25.08:809][  0]LogInit: FAudioDevice initialized.
+[2015.09.09-05.25.08:895][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.09-05.25.08:921][  0]LogDerivedDataCache: Saved boot cache 0.03s 44MB C:/Users/Admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.09.09-05.25.08:927][  0]LogInit: Texture streaming: Enabled
+[2015.09.09-05.25.09:503][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.09-05.25.09:503][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.09.09-05.25.09:503][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.09.09-05.25.09:503][  0]LogAnalytics: SetUserId 0b171b7540c931a0f620c8b878be6a3a|90dc462d3abe4e908c5e059bf9a6bfe2|0d6894b3-0434-4d10-9239-f3a8220f2c03
+[2015.09.09-05.25.09:503][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.09.09-05.25.09:548][  0]LogInit: Transaction tracking system initialized
+[2015.09.09-05.25.09:939][  0]BlueprintLog: New page: Editor Load
+[2015.09.09-05.25.10:011][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2015.09.09-05.25.10:011][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.09-05.25.11:291][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.09-05.25.11:933][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.09-05.25.13:002][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-05.25.13:021][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.09.09-05.25.13:021][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.09.09-05.25.13:021][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2015.09.09-05.25.13:187][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.09.09-05.25.13:188][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.09.09-05.25.13:320][  0]LogConsoleResponse:Display: 
+[2015.09.09-05.25.14:090][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.09-05.25.14:758][  0]SourceControl: Info Source control is disabled
+[2015.09.09-05.25.14:758][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.09-05.25.14:834][  0]LightingResults: New page: Lighting Build
+[2015.09.09-05.25.14:860][  0]MapCheck: New page: Map Check
+[2015.09.09-05.25.14:860][  0]LightingResults: New page: Lighting Build
+[2015.09.09-05.25.14:869][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B22A200
+[2015.09.09-05.25.15:000][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-05.25.17:973][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Chair_N'
+[2015.09.09-05.25.17:973][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Chair_N' while loading ../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/StarterContent/Props/Materials/M_Chair.uasset.
+[2015.09.09-05.25.17:973][  0]LoadErrors:Error: Error /Game/StarterContent/Props/Materials/M_Chair : Can't find file for asset. /Game/StarterContent/Textures/T_Chair_N
+[2015.09.09-05.25.17:974][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Chair_N'
+[2015.09.09-05.25.17:974][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Chair_N' while loading ../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/StarterContent/Props/Materials/M_Chair.uasset.
+[2015.09.09-05.25.17:974][  0]LoadErrors:Error: Error /Game/StarterContent/Props/Materials/M_Chair : Can't find file for asset. /Game/StarterContent/Textures/T_Chair_N
+[2015.09.09-05.25.20:130][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Chair_N'
+[2015.09.09-05.25.20:130][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Chair_N.T_Chair_N Referenced by MaterialExpressionTextureSample_3
+[2015.09.09-05.25.20:130][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Chair_N' while loading NULL.
+[2015.09.09-05.25.20:131][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Chair_N.T_Chair_N Referenced by MaterialExpressionTextureSample_3
+[2015.09.09-05.25.21:660][  0]LogMaterial: Missing cached shader map for material M_Chair, compiling. 
+[2015.09.09-05.25.21:660][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair for platform PCD3D_SM5, Default Material will be used in game.
+[2015.09.09-05.25.21:660][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.09.09-05.25.22:396][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.09-05.25.22:396][  0]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.09.09-05.25.22:397][  0]Cmd: MAP CHECKDEP
+[2015.09.09-05.25.22:397][  0]MapCheck: New page: MuseumLevel - 10 Sep 2015 1:25:22 am
+[2015.09.09-05.25.22:539][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.637ms to complete.
+[2015.09.09-05.25.22:539][  0]LogFileHelpers: Loading map 'MuseumLevel' took 7.781
+[2015.09.09-05.25.22:785][  0]LogCollectionManager: Loaded 0 collections in 0.002144 seconds
+[2015.09.09-05.25.22:801][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 1696 classes and 261 folders.
+[2015.09.09-05.25.22:861][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2015.09.09-05.25.23:145][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.09-05.25.23:146][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.09.09-05.25.23:154][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.09-05.25.23:181][  0]LogLoad: Full Startup: 47.76 seconds (BP compile: 2.12 seconds)
+[2015.09.09-05.25.23:600][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.09.09-05.25.23:813][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.09.09-05.25.24:263][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x552 (Frame:13).
+[2015.09.09-05.25.26:113][  6]LogAssetRegistry: Asset discovery search completed in 16.1122 seconds
+[2015.09.09-05.42.35:949][969]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.09.09-05.42.40:691][215]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.09.09-05.42.42:310][306]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.09.09-05.43.00:265][253]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.09.09-05.43.00:506][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.09-05.43.00:506][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.09.09-05.43.00:506][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.09.09-05.43.00:545][253]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000228136A0
+[2015.09.09-05.43.00:588][253]BlueprintEditorCompileResults: Info [1105.16] Compile of FirstPersonCharacter successful! [in 322 ms]
+[2015.09.09-05.43.01:123][299]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MuseumLevel' took 0.019
+[2015.09.09-05.43.01:158][299]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.09.09-05.43.01:166][299]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.09.09-05.43.01:416][299]LogSavePackage: Save=211.989578ms
+[2015.09.09-05.43.01:416][299]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/FirstPersonCharacter_Auto18DA9BA9C4012546C82BB6B98D41754E8.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2015.09.09-05.43.01:439][299]LogFileHelpers: Auto-saving content packages took 0.316
+[2015.09.09-05.43.05:777][793]LogSavePackage: Save=162.611847ms
+[2015.09.09-05.43.05:777][793]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/FirstPersonCharacter39A8A5404208047B9D7875B443878ACD.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.09.09-05.49.21:363][436]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.09.09-05.49.22:305][492]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.09.09-05.49.33:143][399]BlueprintLog: New page: Compile PickupMaster
+[2015.09.09-05.49.33:195][399]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.09.09-05.49.33:195][399]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.09-05.49.33:195][399]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.09.09-05.49.33:195][399]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.09.09-05.49.33:195][399]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.09.09-05.49.33:211][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000329BC360
+[2015.09.09-05.49.33:212][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029B80540
+[2015.09.09-05.49.33:231][399]BlueprintEditorCompileResults: Info [1497.80] Compile of PickupMaster successful! [in 88 ms]
+[2015.09.09-05.49.41:969][ 74]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.09.09-05.53.01:490][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030A60860
+[2015.09.09-05.53.03:782][ 35]LogSavePackage: Save=2015.698364ms
+[2015.09.09-05.53.03:806][ 35]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel_Auto2797E303841A161BFC2D8C494B3310C1B.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/MuseumLevel_Auto2.umap'
+[2015.09.09-05.53.03:814][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MuseumLevel' took 2.342
+[2015.09.09-05.53.03:814][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.342
+[2015.09.09-05.56.02:394][631]BlueprintLog: New page: Compile MuseumLevel
+[2015.09.09-05.56.02:868][631]BlueprintEditorCompileResults: Info [1887.43] Compile of MuseumLevel successful! [in 474 ms]
+[2015.09.09-05.57.01:195][133]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.09-05.57.01:198][133]LogPlayLevel: [PIE] Compiling PatrollingEnemy before PIE...
+[2015.09.09-05.57.01:355][133]LogPlayLevel: [PIE] Compiling EndGamePickup before PIE...
+[2015.09.09-05.57.01:414][133]LogPlayLevel: [PIE] Compiling Pickup before PIE...
+[2015.09.09-05.57.01:476][133]LogPlayLevel: [PIE] Compiling TutorialPickup before PIE...
+[2015.09.09-05.57.01:534][133]LogPlayLevel: [PIE] Compiling MuseumLevel before PIE...
+[2015.09.09-05.57.01:974][133]LogPlayLevel: [PIE] Compiling HUD before PIE...
+[2015.09.09-05.57.02:077][133]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.09-05.57.02:131][133]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.09.09-05.57.02:349][133]LogPlayLevel: [PIE] Compiling PickupMaster before PIE...
+[2015.09.09-05.57.02:427][133]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001208EFC0
+[2015.09.09-05.57.02:438][133]LogPlayLevel: PIE:  Blueprint regeneration took 1243 ms (9 blueprints)
+[2015.09.09-05.57.02:439][133]PIE: New page: PIE session: MuseumLevel (10 Sep 2015 1:57:02 am)
+[2015.09.09-05.57.02:542][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:542][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:542][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:542][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:542][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:542][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:542][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:542][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:543][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:543][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:543][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:543][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:544][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:544][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:544][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:544][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:544][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:544][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:545][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:545][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:545][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:545][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:545][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:545][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:546][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:546][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:546][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:546][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:546][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:547][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:547][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:547][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:547][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:547][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:547][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:547][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:548][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:548][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:548][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:548][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:548][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:548][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:548][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:549][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:549][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:549][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:549][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:549][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:550][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:550][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:550][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:550][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:551][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:551][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:551][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:551][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:551][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:551][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:552][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:552][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:552][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:552][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:552][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:552][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:553][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:553][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:553][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:553][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:553][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:553][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:554][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:554][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:554][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:554][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:554][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:554][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:555][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:555][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:555][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:555][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:555][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:555][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:556][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:556][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:556][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:556][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:556][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:556][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:557][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:557][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:557][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:557][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:559][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_0) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:559][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_0) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:559][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_1) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:559][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_1) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:560][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_2) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:560][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_2) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:560][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_3) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_3) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_4) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_4) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_5) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_5) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_6) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_6) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_7) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_7) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_8) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_8) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_9) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_9) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_10) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_10) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_11) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_11) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_12) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:561][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_12) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:562][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_13) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:562][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_13) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:563][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:563][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:563][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:563][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:564][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:564][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:564][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:564][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:564][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_7_Copy) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:564][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_7_Copy) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:565][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:565][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:565][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:565][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:565][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:565][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:566][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:566][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:566][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_14) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:566][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_14) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:568][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:568][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:568][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:568][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:569][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:569][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:569][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:569][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:569][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:569][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:570][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:570][133]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:570][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_15) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:570][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_15) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:570][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_16) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:570][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_16) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:570][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_17) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:570][133]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_17) bSelfContext == true, but no scope supplied!
+[2015.09.09-05.57.02:606][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.166817s)
+[2015.09.09-05.57.02:607][133]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2015.09.09-05.57.02:607][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MuseumLevel.MuseumLevel to /Game/UEDPIE_0_MuseumLevel.MuseumLevel (0.167929s)
+[2015.09.09-05.57.02:702][133]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-05.57.02:704][133]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.09.09-05.57.02:781][133]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.09-05.57.02:781][133]LogWorld: Bringing World /Game/UEDPIE_0_MuseumLevel.MuseumLevel up for play (max tick rate 0) at 2015.09.09-15.57.02
+[2015.09.09-05.57.02:793][133]LogWorld: Bringing up level for play took: 0.089107
+[2015.09.09-05.57.02:844][133]PIE: Info Play in editor start time for /Game/UEDPIE_0_MuseumLevel 0.876
+[2015.09.09-05.57.10:554][736]LogPackageName: SearchForPackageOnDisk took   0.072s to resolve GOPage.umap
+[2015.09.09-05.57.10:627][737]LogPackageName: SearchForPackageOnDisk took   0.066s to resolve GOPage.umap
+[2015.09.09-05.57.10:627][737]LogNet: Browse: /Game/GOPage
+[2015.09.09-05.57.10:627][737]LogLoad: LoadMap: /Game/GOPage
+[2015.09.09-05.57.10:663][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019D98180
+[2015.09.09-05.57.10:663][737]Cmd: MEM
+[2015.09.09-05.57.10:686][737]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-05.57.10:686][737]LogMemory: Process Physical Memory: 829.11 MB used, 842.21 MB peak
+[2015.09.09-05.57.10:686][737]LogMemory: Process Virtual Memory: 733.77 MB used, 749.08 MB peak
+[2015.09.09-05.57.10:686][737]LogMemory: Physical Memory: 5751.57 MB used, 8066.43 MB total
+[2015.09.09-05.57.10:686][737]LogMemory: Virtual Memory: 1327.10 MB used, 8388608.00 MB total
+[2015.09.09-05.57.10:686][737]LogMemory: 
+[2015.09.09-05.57.10:686][737]Allocator Stats for TBB: (not implemented)
+[2015.09.09-05.57.11:338][737]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-05.57.11:433][737]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-05.57.11:436][737]LogAIModule: Creating AISystem for world GOPage
+[2015.09.09-05.57.11:436][737]LogWorld: Bringing World /Game/UEDPIE_0_GOPage.GOPage up for play (max tick rate 0) at 2015.09.09-15.57.11
+[2015.09.09-05.57.11:437][737]LogWorld: Bringing up level for play took: 0.001019
+[2015.09.09-05.57.11:438][737]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-05.57.12:788][868]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve MuseumHeist.umap
+[2015.09.09-05.57.12:858][868]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve MuseumHeist.umap
+[2015.09.09-05.57.12:858][868]LogNet: Browse: /Game/MainPage
+[2015.09.09-05.57.12:858][868]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/MainPage
+[2015.09.09-05.57.12:858][868]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/MainPage'
+[2015.09.09-05.57.12:858][868]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/MainPage
+[2015.09.09-05.57.12:858][868]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/MainPage'
+[2015.09.09-05.57.12:863][869]LogNet: Browse: /Game/MainPage?closed
+[2015.09.09-05.57.12:863][869]LogNet: Failed; returning to Entry
+[2015.09.09-05.57.12:864][869]LogLoad: LoadMap: /Game/MainPage?closed
+[2015.09.09-05.57.12:892][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D5B1620
+[2015.09.09-05.57.12:892][869]Cmd: MEM
+[2015.09.09-05.57.12:913][869]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-05.57.12:913][869]LogMemory: Process Physical Memory: 908.77 MB used, 957.15 MB peak
+[2015.09.09-05.57.12:913][869]LogMemory: Process Virtual Memory: 813.64 MB used, 856.25 MB peak
+[2015.09.09-05.57.12:913][869]LogMemory: Physical Memory: 5876.80 MB used, 8066.43 MB total
+[2015.09.09-05.57.12:913][869]LogMemory: Virtual Memory: 1406.73 MB used, 8388608.00 MB total
+[2015.09.09-05.57.12:913][869]LogMemory: 
+[2015.09.09-05.57.12:913][869]Allocator Stats for TBB: (not implemented)
+[2015.09.09-05.57.13:100][869]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-05.57.13:183][869]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-05.57.13:185][869]LogAIModule: Creating AISystem for world MainPage
+[2015.09.09-05.57.13:186][869]LogWorld: Bringing World /Game/UEDPIE_0_MainPage.MainPage up for play (max tick rate 0) at 2015.09.09-15.57.13
+[2015.09.09-05.57.13:186][869]LogWorld: Bringing up level for play took: 0.001036
+[2015.09.09-05.57.13:187][869]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-05.57.14:189][976]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve GameStart.umap
+[2015.09.09-05.57.14:256][976]LogPackageName: SearchForPackageOnDisk took   0.066s to resolve GameStart.umap
+[2015.09.09-05.57.14:256][976]LogNet: Browse: /Game/GameStart
+[2015.09.09-05.57.14:256][976]LogLoad: LoadMap: /Game/GameStart
+[2015.09.09-05.57.14:275][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012507EC0
+[2015.09.09-05.57.14:281][976]Cmd: MEM
+[2015.09.09-05.57.14:303][976]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-05.57.14:303][976]LogMemory: Process Physical Memory: 908.80 MB used, 957.15 MB peak
+[2015.09.09-05.57.14:303][976]LogMemory: Process Virtual Memory: 813.64 MB used, 856.25 MB peak
+[2015.09.09-05.57.14:303][976]LogMemory: Physical Memory: 5865.18 MB used, 8066.43 MB total
+[2015.09.09-05.57.14:303][976]LogMemory: Virtual Memory: 1406.73 MB used, 8388608.00 MB total
+[2015.09.09-05.57.14:303][976]LogMemory: 
+[2015.09.09-05.57.14:303][976]Allocator Stats for TBB: (not implemented)
+[2015.09.09-05.57.14:374][976]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-05.57.14:456][976]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-05.57.14:458][976]LogAIModule: Creating AISystem for world GameStart
+[2015.09.09-05.57.14:459][976]LogWorld: Bringing World /Game/UEDPIE_0_GameStart.GameStart up for play (max tick rate 0) at 2015.09.09-15.57.14
+[2015.09.09-05.57.14:460][976]LogWorld: Bringing up level for play took: 0.001007
+[2015.09.09-05.57.14:460][976]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-05.57.14:887][ 11]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000123C9620
+[2015.09.09-06.03.19:539][335]LogSavePackage: Save=1883.631836ms
+[2015.09.09-06.03.19:539][335]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel_Auto33827C2B445E1994EA01F92A58BD96287.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/MuseumLevel_Auto3.umap'
+[2015.09.09-06.03.19:547][335]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MuseumLevel' took 2.005
+[2015.09.09-06.03.19:547][335]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.005
+[2015.09.09-06.03.19:576][335]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MainMenu] ([1] browsable assets)...
+[2015.09.09-06.03.19:576][335]OBJ SavePackage: Finished generating thumbnails for package [/Game/MainMenu]
+[2015.09.09-06.03.19:594][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/MainMenu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2015.09.09-06.03.19:796][335]LogSavePackage: Save=162.425827ms
+[2015.09.09-06.03.19:796][335]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MainMenu_Auto32C3372AF4419BCE5A8A9AEAF91C39836.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/MainMenu_Auto3.uasset'
+[2015.09.09-06.03.19:802][335]LogFileHelpers: Auto-saving content packages took 0.255
+[2015.09.09-06.07.31:711][423]BlueprintLog: New page: Compile MainMenu
+[2015.09.09-06.07.31:806][423]BlueprintEditorCompileResults: Info [2576.36] Compile of MainMenu successful! [in 95 ms]
+[2015.09.09-06.07.32:240][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MainMenu.uasset" SILENT=true
+[2015.09.09-06.07.32:303][468]LogSavePackage: Save=48.173115ms
+[2015.09.09-06.07.32:303][468]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MainMenuCF4B6A5743D56B8FC7ABB8AC713D31F8.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MainMenu.uasset'
+[2015.09.09-06.13.20:373][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.09-06.13.20:373][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.09.09-06.13.20:373][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.09.09-06.13.20:373][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.09.09-06.13.20:373][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.09.09-06.13.20:406][753]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010179760
+[2015.09.09-06.13.22:387][753]LogSavePackage: Save=1918.733521ms
+[2015.09.09-06.13.22:387][753]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel_Auto446264BC64530A0BC79F5D09F086E226B.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/MuseumLevel_Auto4.umap'
+[2015.09.09-06.13.22:394][753]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MuseumLevel' took 2.021
+[2015.09.09-06.13.22:394][753]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.021
+[2015.09.09-06.23.25:088][925]LogSavePackage: Save=2024.941284ms
+[2015.09.09-06.23.25:088][925]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel_Auto51B5C7CE84D900C0B3DE048B7C570234C.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/MuseumLevel_Auto5.umap'
+[2015.09.09-06.23.25:095][925]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MuseumLevel' took 2.142
+[2015.09.09-06.23.25:095][925]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.142
+[2015.09.09-06.33.27:712][ 55]LogSavePackage: Save=1892.506470ms
+[2015.09.09-06.33.27:712][ 55]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel_Auto6C8C25FAA40D6DF4CE106EEB9DB613A73.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/MuseumLevel_Auto6.umap'
+[2015.09.09-06.33.27:728][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MuseumLevel' took 2.000
+[2015.09.09-06.33.27:728][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.000
+[2015.09.09-06.43.34:360][164]BlueprintLog: New page: Compile MuseumLevel
+[2015.09.09-06.43.34:871][164]BlueprintEditorCompileResults: Info [4739.41] Compile of MuseumLevel successful! [in 510 ms]
+[2015.09.09-06.43.38:969][521]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.09-06.43.38:972][521]LogPlayLevel: [PIE] Compiling PatrollingEnemy before PIE...
+[2015.09.09-06.43.39:095][521]LogPlayLevel: [PIE] Compiling EndGamePickup before PIE...
+[2015.09.09-06.43.39:156][521]LogPlayLevel: [PIE] Compiling Pickup before PIE...
+[2015.09.09-06.43.39:220][521]LogPlayLevel: [PIE] Compiling TutorialPickup before PIE...
+[2015.09.09-06.43.39:322][521]LogPlayLevel: [PIE] Compiling MuseumLevel before PIE...
+[2015.09.09-06.43.39:764][521]LogPlayLevel: [PIE] Compiling HUD before PIE...
+[2015.09.09-06.43.39:866][521]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.09-06.43.39:920][521]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.09.09-06.43.40:132][521]LogPlayLevel: [PIE] Compiling PickupMaster before PIE...
+[2015.09.09-06.43.40:225][521]LogPlayLevel: PIE:  Blueprint regeneration took 1256 ms (9 blueprints)
+[2015.09.09-06.43.40:225][521]PIE: New page: PIE session: MuseumLevel (10 Sep 2015 2:43:40 am)
+[2015.09.09-06.43.40:332][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:332][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:332][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:332][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:332][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:332][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:332][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:332][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:334][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:334][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:334][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:334][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:335][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:335][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:335][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:335][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:335][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:335][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:336][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:336][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:336][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:336][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:336][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:336][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:337][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:337][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:338][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:339][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:339][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:339][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:339][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:339][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:340][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:340][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:340][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:340][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:340][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:340][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:340][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:341][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:341][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:341][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:341][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:342][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:342][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:342][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:342][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:343][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:343][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:343][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:343][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:343][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:343][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:344][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:344][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:344][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:344][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:344][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:344][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:345][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:345][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:345][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:345][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:346][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:346][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:346][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:346][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:346][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:346][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:346][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:346][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:347][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:347][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:347][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:347][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:348][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:348][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:348][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:348][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:348][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:348][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:348][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:348][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:351][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_0) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:351][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_0) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:351][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_1) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:351][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_1) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_2) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_2) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_3) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_3) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_4) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_4) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_5) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_5) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_6) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_6) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:352][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_7) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_7) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_8) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_8) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_9) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_9) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_10) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_10) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_11) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_11) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_12) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_12) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_13) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:353][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_13) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:354][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:354][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:355][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:355][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:355][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:355][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:355][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:355][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:356][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_7_Copy) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:356][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_7_Copy) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:356][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:356][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:356][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:356][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:357][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:357][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:357][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:357][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:357][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_14) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:357][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_14) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:359][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:359][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:360][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:360][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:360][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:360][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:361][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:361][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:361][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:361][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:361][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:361][521]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:362][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_15) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:362][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_15) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:362][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_16) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:362][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_16) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:362][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_17) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:362][521]LogBlueprint:Warning: FMemberReference::ResolveMember (CustomEvent_17) bSelfContext == true, but no scope supplied!
+[2015.09.09-06.43.40:399][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.172994s)
+[2015.09.09-06.43.40:400][521]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2015.09.09-06.43.40:400][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MuseumLevel.MuseumLevel to /Game/UEDPIE_0_MuseumLevel.MuseumLevel (0.174113s)
+[2015.09.09-06.43.40:428][521]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-06.43.40:430][521]LogAIModule: Creating AISystem for world MuseumLevel
+[2015.09.09-06.43.40:502][521]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.09.09-06.43.40:502][521]LogWorld: Bringing World /Game/UEDPIE_0_MuseumLevel.MuseumLevel up for play (max tick rate 0) at 2015.09.09-16.43.40
+[2015.09.09-06.43.40:514][521]LogWorld: Bringing up level for play took: 0.084068
+[2015.09.09-06.43.40:518][521]PIE: Info Play in editor start time for /Game/UEDPIE_0_MuseumLevel 2.524
+[2015.09.09-06.43.47:271][ 59]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve GOPage.umap
+[2015.09.09-06.43.47:345][ 60]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve GOPage.umap
+[2015.09.09-06.43.47:345][ 60]LogNet: Browse: /Game/GOPage
+[2015.09.09-06.43.47:345][ 60]LogLoad: LoadMap: /Game/GOPage
+[2015.09.09-06.43.47:370][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010179C60
+[2015.09.09-06.43.47:379][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000101FA840
+[2015.09.09-06.43.47:380][ 60]Cmd: MEM
+[2015.09.09-06.43.47:403][ 60]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-06.43.47:403][ 60]LogMemory: Process Physical Memory: 947.77 MB used, 971.69 MB peak
+[2015.09.09-06.43.47:403][ 60]LogMemory: Process Virtual Memory: 850.81 MB used, 876.06 MB peak
+[2015.09.09-06.43.47:403][ 60]LogMemory: Physical Memory: 6024.55 MB used, 8066.43 MB total
+[2015.09.09-06.43.47:403][ 60]LogMemory: Virtual Memory: 1442.76 MB used, 8388608.00 MB total
+[2015.09.09-06.43.47:403][ 60]LogMemory: 
+[2015.09.09-06.43.47:403][ 60]Allocator Stats for TBB: (not implemented)
+[2015.09.09-06.43.47:523][ 60]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-06.43.47:606][ 60]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-06.43.47:609][ 60]LogAIModule: Creating AISystem for world GOPage
+[2015.09.09-06.43.47:609][ 60]LogWorld: Bringing World /Game/UEDPIE_0_GOPage.GOPage up for play (max tick rate 0) at 2015.09.09-16.43.47
+[2015.09.09-06.43.47:610][ 60]LogWorld: Bringing up level for play took: 0.001055
+[2015.09.09-06.43.47:611][ 60]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-06.43.48:822][196]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve MuseumHeist.umap
+[2015.09.09-06.43.48:892][196]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve MuseumHeist.umap
+[2015.09.09-06.43.48:892][196]LogNet: Browse: /Game/MainPage
+[2015.09.09-06.43.48:892][196]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/MainPage
+[2015.09.09-06.43.48:892][196]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/MainPage'
+[2015.09.09-06.43.48:892][196]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/MainPage
+[2015.09.09-06.43.48:892][196]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/MainPage'
+[2015.09.09-06.43.48:897][197]LogNet: Browse: /Game/MainPage?closed
+[2015.09.09-06.43.48:897][197]LogNet: Failed; returning to Entry
+[2015.09.09-06.43.48:898][197]LogLoad: LoadMap: /Game/MainPage?closed
+[2015.09.09-06.43.48:924][197]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017FA9760
+[2015.09.09-06.43.48:924][197]Cmd: MEM
+[2015.09.09-06.43.48:948][197]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-06.43.48:948][197]LogMemory: Process Physical Memory: 947.77 MB used, 971.69 MB peak
+[2015.09.09-06.43.48:948][197]LogMemory: Process Virtual Memory: 850.81 MB used, 876.06 MB peak
+[2015.09.09-06.43.48:948][197]LogMemory: Physical Memory: 6025.06 MB used, 8066.43 MB total
+[2015.09.09-06.43.48:948][197]LogMemory: Virtual Memory: 1442.76 MB used, 8388608.00 MB total
+[2015.09.09-06.43.48:948][197]LogMemory: 
+[2015.09.09-06.43.48:948][197]Allocator Stats for TBB: (not implemented)
+[2015.09.09-06.43.49:053][197]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-06.43.49:136][197]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-06.43.49:138][197]LogAIModule: Creating AISystem for world MainPage
+[2015.09.09-06.43.49:138][197]LogWorld: Bringing World /Game/UEDPIE_0_MainPage.MainPage up for play (max tick rate 0) at 2015.09.09-16.43.49
+[2015.09.09-06.43.49:139][197]LogWorld: Bringing up level for play took: 0.001005
+[2015.09.09-06.43.49:139][197]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-06.43.49:772][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017FAB1A0
+[2015.09.09-06.43.54:557][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MuseumLevel" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.09-06.43.56:522][516]LogSavePackage: Save=1919.303467ms
+[2015.09.09-06.43.56:522][516]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MuseumLevel48A488C941F631F1B6202099F5AAD25A.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MuseumLevel.umap'
+[2015.09.09-06.43.56:566][516]LogFileHelpers: Saving map 'MuseumLevel' took 2.158
+[2015.09.09-06.44.01:075][788]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MainPage.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.09-06.44.01:075][788]LightingResults: New page: Lighting Build
+[2015.09.09-06.44.01:123][788]LoadErrors: New page: Loading map: MainPage.umap
+[2015.09.09-06.44.01:245][788]MapCheck: New page: Map Check
+[2015.09.09-06.44.01:245][788]LightingResults: New page: Lighting Build
+[2015.09.09-06.44.01:263][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EE13A60
+[2015.09.09-06.44.01:279][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030A63060
+[2015.09.09-06.44.01:335][788]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.09-06.44.01:336][788]LogAIModule: Creating AISystem for world MainPage
+[2015.09.09-06.44.01:373][788]Cmd: MAP CHECKDEP
+[2015.09.09-06.44.01:373][788]MapCheck: New page: MainPage - 10 Sep 2015 2:44:01 am
+[2015.09.09-06.44.01:517][788]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 144.014ms to complete.
+[2015.09.09-06.44.01:518][788]LogFileHelpers: Loading map 'MainPage' took 0.446
+[2015.09.09-06.44.25:559][501]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.09.09-06.44.25:559][501]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.09.09-06.44.25:559][501]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_145.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.SKEL_MainMenu_C:WidgetTree_144.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_MainMenu_C_36:WidgetTree_140.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_14:MainMenu_C_4.WidgetTree_142.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_141.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.SKEL_MainMenu_C:WidgetTree_140.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_MainMenu_C_35:WidgetTree_95.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_14:MainMenu_C_3.WidgetTree_139.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_138.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_14:MainMenu_C_2.WidgetTree_137.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_136.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/HUD.HUD_C:WidgetTree_110.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/HUD.SKEL_HUD_C:WidgetTree_109.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_97.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu:WidgetTree_1.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/HUD.HUD:WidgetTree_1.CanvasPanel_0
+[2015.09.09-06.44.25:562][501]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0.CanvasPanelSlot_415) from referencer (Button /Engine/UMG/Editor/Transient.StartButton).  Import failed...
+[2015.09.09-06.44.25:562][501]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_415''
+[2015.09.09-06.44.29:095][886]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.09.09-06.44.29:095][886]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.09.09-06.44.29:095][886]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_145.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.SKEL_MainMenu_C:WidgetTree_144.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_MainMenu_C_36:WidgetTree_140.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_14:MainMenu_C_4.WidgetTree_142.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_141.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.SKEL_MainMenu_C:WidgetTree_140.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_MainMenu_C_35:WidgetTree_95.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_14:MainMenu_C_3.WidgetTree_139.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_138.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_14:MainMenu_C_2.WidgetTree_137.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_136.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/HUD.HUD_C:WidgetTree_110.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/HUD.SKEL_HUD_C:WidgetTree_109.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu_C:WidgetTree_97.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/MainMenu.MainMenu:WidgetTree_1.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0 or CanvasPanel /Game/HUD.HUD:WidgetTree_1.CanvasPanel_0
+[2015.09.09-06.44.29:096][886]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_14:MainMenu_C_5.WidgetTree_146.CanvasPanel_0.CanvasPanelSlot_415) from referencer (Button /Engine/UMG/Editor/Transient.StartButton).  Import failed...
+[2015.09.09-06.44.29:096][886]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_415''
+[2015.09.09-06.50.27:126][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.09-06.50.27:126][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.09.09-06.50.27:145][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000317A85E0
+[2015.09.09-06.50.27:146][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000317AA3E0
+[2015.09.09-06.50.30:137][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfoPage" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/InfoPage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.09-06.50.30:235][866]LogSavePackage: Save=72.340164ms
+[2015.09.09-06.50.30:235][866]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/InfoPageDE270B104FC499FDCA11B3A665114532.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/InfoPage.umap'
+[2015.09.09-06.50.30:238][866]LogFileHelpers: Saving map 'InfoPage' took 0.252
+[2015.09.09-06.50.30:241][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MainMenu.uasset" SILENT=true
+[2015.09.09-06.50.30:326][866]LogSavePackage: Save=72.180023ms
+[2015.09.09-06.50.30:326][866]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MainMenuB48F743D4772BEE776F13E84609FD740.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MainMenu.uasset'
+[2015.09.09-06.50.30:363][866]Cmd: MAP LOAD FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/InfoPage.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.09-06.50.30:364][866]LightingResults: New page: Lighting Build
+[2015.09.09-06.50.30:431][866]LoadErrors: New page: Loading map: InfoPage.umap
+[2015.09.09-06.50.30:431][866]MapCheck: New page: Map Check
+[2015.09.09-06.50.30:431][866]LightingResults: New page: Lighting Build
+[2015.09.09-06.50.30:446][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011F4F560
+[2015.09.09-06.50.30:496][866]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.09-06.50.30:497][866]LogAIModule: Creating AISystem for world InfoPage
+[2015.09.09-06.50.30:540][866]Cmd: MAP CHECKDEP
+[2015.09.09-06.50.30:540][866]MapCheck: New page: InfoPage - 10 Sep 2015 2:50:30 am
+[2015.09.09-06.50.30:686][866]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 145.508ms to complete.
+[2015.09.09-06.50.30:686][866]LogFileHelpers: Loading map 'InfoPage' took 0.328
+[2015.09.09-06.51.08:479][ 84]BlueprintLog: New page: Compile MainMenu
+[2015.09.09-06.51.08:539][ 84]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.09-06.51.08:539][ 84]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.09.09-06.51.08:539][ 84]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.09.09-06.51.08:539][ 84]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2015.09.09-06.51.08:568][ 84]BlueprintEditorCompileResults: Info [5193.10] Compile of MainMenu successful! [in 89 ms]
+[2015.09.09-06.51.09:372][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MainMenu.uasset" SILENT=true
+[2015.09.09-06.51.09:457][172]LogSavePackage: Save=58.966270ms
+[2015.09.09-06.51.09:457][172]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MainMenu26FC4D034FDC2B05B67A68A913584CFE.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MainMenu.uasset'
+[2015.09.09-06.51.24:825][696]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.09.09-07.00.30:062][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030C754E0
+[2015.09.09-07.00.30:071][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030C77740
+[2015.09.09-07.00.30:071][970]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/InfoPage' took 0.031
+[2015.09.09-07.00.30:102][970]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfoWidget] ([1] browsable assets)...
+[2015.09.09-07.00.30:104][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfoWidget]
+[2015.09.09-07.00.30:179][970]LogSavePackage: Save=70.941566ms
+[2015.09.09-07.00.30:180][970]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/InfoWidget_Auto741A720F740C4C5A541883F9232FF5601.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/Autosaves/Game/InfoWidget_Auto7.uasset'
+[2015.09.09-07.00.30:184][970]LogFileHelpers: Auto-saving content packages took 0.112
+[2015.09.09-07.00.53:280][769]BlueprintLog: New page: Compile InfoWidget
+[2015.09.09-07.00.53:346][769]BlueprintEditorCompileResults: Info [5777.87] Compile of InfoWidget successful! [in 65 ms]
+[2015.09.09-07.01.58:236][291]BlueprintLog: New page: Compile InfoWidget
+[2015.09.09-07.01.58:306][291]BlueprintEditorCompileResults: Info [5842.83] Compile of InfoWidget successful! [in 69 ms]
+[2015.09.09-07.01.59:728][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfoWidget" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/InfoWidget.uasset" SILENT=true
+[2015.09.09-07.01.59:746][457]LogSavePackage: Save=16.615969ms
+[2015.09.09-07.01.59:746][457]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/InfoWidget13DCA87D4F4B551EF1B780A913A1C327.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/InfoWidget.uasset'
+[2015.09.09-07.02.02:506][754]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.09-07.02.02:508][754]LogPlayLevel: [PIE] Compiling PatrollingEnemy before PIE...
+[2015.09.09-07.02.02:580][754]LogPlayLevel: [PIE] Compiling EndGamePickup before PIE...
+[2015.09.09-07.02.02:634][754]LogPlayLevel: [PIE] Compiling Pickup before PIE...
+[2015.09.09-07.02.02:689][754]LogPlayLevel: [PIE] Compiling TutorialPickup before PIE...
+[2015.09.09-07.02.02:742][754]LogPlayLevel: [PIE] Compiling GOPage3 before PIE...
+[2015.09.09-07.02.02:790][754]LogPlayLevel: [PIE] Compiling InfoPage before PIE...
+[2015.09.09-07.02.02:838][754]LogPlayLevel: [PIE] Compiling HUD before PIE...
+[2015.09.09-07.02.02:938][754]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.09-07.02.02:987][754]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.09.09-07.02.03:214][754]LogPlayLevel: [PIE] Compiling PickupMaster before PIE...
+[2015.09.09-07.02.03:289][754]LogPlayLevel: PIE:  Blueprint regeneration took 783 ms (10 blueprints)
+[2015.09.09-07.02.03:289][754]PIE: New page: PIE session: InfoPage (10 Sep 2015 3:02:03 am)
+[2015.09.09-07.02.03:294][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004969s)
+[2015.09.09-07.02.03:295][754]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2015.09.09-07.02.03:295][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfoPage.InfoPage to /Game/UEDPIE_0_InfoPage.InfoPage (0.005716s)
+[2015.09.09-07.02.03:334][754]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.02.03:336][754]LogAIModule: Creating AISystem for world InfoPage
+[2015.09.09-07.02.03:337][754]LogWorld: Bringing World /Game/UEDPIE_0_InfoPage.InfoPage up for play (max tick rate 0) at 2015.09.09-17.02.03
+[2015.09.09-07.02.03:337][754]LogWorld: Bringing up level for play took: 0.000973
+[2015.09.09-07.02.03:341][754]PIE: Info Play in editor start time for /Game/UEDPIE_0_InfoPage 1.337
+[2015.09.09-07.02.05:915][ 55]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000357C0B80
+[2015.09.09-07.02.08:538][299]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.09-07.02.08:542][299]LogPlayLevel: [PIE] Compiling PatrollingEnemy before PIE...
+[2015.09.09-07.02.08:613][299]LogPlayLevel: [PIE] Compiling EndGamePickup before PIE...
+[2015.09.09-07.02.08:668][299]LogPlayLevel: [PIE] Compiling Pickup before PIE...
+[2015.09.09-07.02.08:722][299]LogPlayLevel: [PIE] Compiling TutorialPickup before PIE...
+[2015.09.09-07.02.08:775][299]LogPlayLevel: [PIE] Compiling GOPage3 before PIE...
+[2015.09.09-07.02.08:819][299]LogPlayLevel: [PIE] Compiling InfoPage before PIE...
+[2015.09.09-07.02.08:868][299]LogPlayLevel: [PIE] Compiling HUD before PIE...
+[2015.09.09-07.02.08:967][299]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.09-07.02.09:018][299]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.09.09-07.02.09:245][299]LogPlayLevel: [PIE] Compiling PickupMaster before PIE...
+[2015.09.09-07.02.09:320][299]LogPlayLevel: PIE:  Blueprint regeneration took 782 ms (10 blueprints)
+[2015.09.09-07.02.09:321][299]PIE: New page: PIE session: InfoPage (10 Sep 2015 3:02:09 am)
+[2015.09.09-07.02.09:326][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004910s)
+[2015.09.09-07.02.09:326][299]LogPlayLevel: PIE: World Init took: (0.000438s)
+[2015.09.09-07.02.09:326][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfoPage.InfoPage to /Game/UEDPIE_0_InfoPage.InfoPage (0.005474s)
+[2015.09.09-07.02.09:356][299]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.02.09:358][299]LogAIModule: Creating AISystem for world InfoPage
+[2015.09.09-07.02.09:359][299]LogWorld: Bringing World /Game/UEDPIE_0_InfoPage.InfoPage up for play (max tick rate 0) at 2015.09.09-17.02.09
+[2015.09.09-07.02.09:359][299]LogWorld: Bringing up level for play took: 0.000866
+[2015.09.09-07.02.09:363][299]PIE: Info Play in editor start time for /Game/UEDPIE_0_InfoPage 1.358
+[2015.09.09-07.02.10:443][419]LogPackageName: SearchForPackageOnDisk took   0.073s to resolve MuseumHeist.umap
+[2015.09.09-07.02.10:512][419]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve MuseumHeist.umap
+[2015.09.09-07.02.10:512][419]LogNet: Browse: /Game/MainPage
+[2015.09.09-07.02.10:512][419]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/MainPage
+[2015.09.09-07.02.10:512][419]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/MainPage'
+[2015.09.09-07.02.10:512][419]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/MainPage
+[2015.09.09-07.02.10:512][419]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/MainPage'
+[2015.09.09-07.02.10:518][420]LogNet: Browse: /Game/MainPage?closed
+[2015.09.09-07.02.10:518][420]LogNet: Failed; returning to Entry
+[2015.09.09-07.02.10:518][420]LogLoad: LoadMap: /Game/MainPage?closed
+[2015.09.09-07.02.10:543][420]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000357C31A0
+[2015.09.09-07.02.10:543][420]Cmd: MEM
+[2015.09.09-07.02.10:565][420]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-07.02.10:565][420]LogMemory: Process Physical Memory: 960.73 MB used, 977.67 MB peak
+[2015.09.09-07.02.10:565][420]LogMemory: Process Virtual Memory: 861.21 MB used, 881.39 MB peak
+[2015.09.09-07.02.10:565][420]LogMemory: Physical Memory: 5916.64 MB used, 8066.43 MB total
+[2015.09.09-07.02.10:565][420]LogMemory: Virtual Memory: 1452.70 MB used, 8388608.00 MB total
+[2015.09.09-07.02.10:565][420]LogMemory: 
+[2015.09.09-07.02.10:565][420]Allocator Stats for TBB: (not implemented)
+[2015.09.09-07.02.10:671][420]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-07.02.10:754][420]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.02.10:756][420]LogAIModule: Creating AISystem for world MainPage
+[2015.09.09-07.02.10:757][420]LogWorld: Bringing World /Game/UEDPIE_0_MainPage.MainPage up for play (max tick rate 0) at 2015.09.09-17.02.10
+[2015.09.09-07.02.10:758][420]LogWorld: Bringing up level for play took: 0.001084
+[2015.09.09-07.02.10:758][420]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.02.12:014][559]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve InfoPage.umap
+[2015.09.09-07.02.12:083][559]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve InfoPage.umap
+[2015.09.09-07.02.12:083][559]LogNet: Browse: /Game/InfoPage
+[2015.09.09-07.02.12:083][559]LogLoad: LoadMap: /Game/InfoPage
+[2015.09.09-07.02.12:108][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C8D3A60
+[2015.09.09-07.02.12:108][559]Cmd: MEM
+[2015.09.09-07.02.12:129][559]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-07.02.12:129][559]LogMemory: Process Physical Memory: 960.73 MB used, 977.67 MB peak
+[2015.09.09-07.02.12:129][559]LogMemory: Process Virtual Memory: 861.21 MB used, 881.39 MB peak
+[2015.09.09-07.02.12:129][559]LogMemory: Physical Memory: 5877.20 MB used, 8066.43 MB total
+[2015.09.09-07.02.12:129][559]LogMemory: Virtual Memory: 1452.70 MB used, 8388608.00 MB total
+[2015.09.09-07.02.12:129][559]LogMemory: 
+[2015.09.09-07.02.12:129][559]Allocator Stats for TBB: (not implemented)
+[2015.09.09-07.02.12:134][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005190s)
+[2015.09.09-07.02.12:135][559]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2015.09.09-07.02.12:135][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfoPage.InfoPage to /Game/UEDPIE_0_InfoPage.InfoPage (0.005892s)
+[2015.09.09-07.02.12:136][559]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.02.12:137][559]LogAIModule: Creating AISystem for world InfoPage
+[2015.09.09-07.02.12:138][559]LogWorld: Bringing World /Game/UEDPIE_0_InfoPage.InfoPage up for play (max tick rate 0) at 2015.09.09-17.02.12
+[2015.09.09-07.02.12:139][559]LogWorld: Bringing up level for play took: 0.000978
+[2015.09.09-07.02.12:139][559]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.02.13:828][756]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F7FFA60
+[2015.09.09-07.02.17:032][ 91]BlueprintLog: New page: Compile InfoPage
+[2015.09.09-07.02.17:096][ 91]BlueprintEditorCompileResults: Info [5861.62] Compile of InfoPage successful! [in 64 ms]
+[2015.09.09-07.02.19:205][342]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.09.09-07.02.22:611][741]BlueprintLog: New page: Compile InfoPage
+[2015.09.09-07.02.22:674][741]BlueprintEditorCompileResults: Info [5867.20] Compile of InfoPage successful! [in 63 ms]
+[2015.09.09-07.02.25:319][ 26]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.09-07.02.25:322][ 26]LogPlayLevel: [PIE] Compiling PatrollingEnemy before PIE...
+[2015.09.09-07.02.25:390][ 26]LogPlayLevel: [PIE] Compiling EndGamePickup before PIE...
+[2015.09.09-07.02.25:443][ 26]LogPlayLevel: [PIE] Compiling Pickup before PIE...
+[2015.09.09-07.02.25:496][ 26]LogPlayLevel: [PIE] Compiling TutorialPickup before PIE...
+[2015.09.09-07.02.25:547][ 26]LogPlayLevel: [PIE] Compiling GOPage3 before PIE...
+[2015.09.09-07.02.25:593][ 26]LogPlayLevel: [PIE] Compiling InfoPage before PIE...
+[2015.09.09-07.02.25:640][ 26]LogPlayLevel: [PIE] Compiling HUD before PIE...
+[2015.09.09-07.02.25:736][ 26]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.09-07.02.25:784][ 26]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.09.09-07.02.25:999][ 26]LogPlayLevel: [PIE] Compiling PickupMaster before PIE...
+[2015.09.09-07.02.26:073][ 26]LogPlayLevel: PIE:  Blueprint regeneration took 754 ms (10 blueprints)
+[2015.09.09-07.02.26:073][ 26]PIE: New page: PIE session: InfoPage (10 Sep 2015 3:02:26 am)
+[2015.09.09-07.02.26:078][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004909s)
+[2015.09.09-07.02.26:079][ 26]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2015.09.09-07.02.26:079][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfoPage.InfoPage to /Game/UEDPIE_0_InfoPage.InfoPage (0.005668s)
+[2015.09.09-07.02.26:109][ 26]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.02.26:110][ 26]LogAIModule: Creating AISystem for world InfoPage
+[2015.09.09-07.02.26:111][ 26]LogWorld: Bringing World /Game/UEDPIE_0_InfoPage.InfoPage up for play (max tick rate 0) at 2015.09.09-17.02.26
+[2015.09.09-07.02.26:112][ 26]LogWorld: Bringing up level for play took: 0.001015
+[2015.09.09-07.02.26:115][ 26]PIE: Info Play in editor start time for /Game/UEDPIE_0_InfoPage 0.11
+[2015.09.09-07.02.27:946][236]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve MainPage.umap
+[2015.09.09-07.02.28:014][236]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve MainPage.umap
+[2015.09.09-07.02.28:014][236]LogNet: Browse: /Game/MainPage
+[2015.09.09-07.02.28:014][236]LogLoad: LoadMap: /Game/MainPage
+[2015.09.09-07.02.28:039][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000123160C0
+[2015.09.09-07.02.28:039][236]Cmd: MEM
+[2015.09.09-07.02.28:061][236]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-07.02.28:061][236]LogMemory: Process Physical Memory: 960.74 MB used, 977.67 MB peak
+[2015.09.09-07.02.28:061][236]LogMemory: Process Virtual Memory: 861.21 MB used, 881.39 MB peak
+[2015.09.09-07.02.28:061][236]LogMemory: Physical Memory: 5876.34 MB used, 8066.43 MB total
+[2015.09.09-07.02.28:061][236]LogMemory: Virtual Memory: 1452.70 MB used, 8388608.00 MB total
+[2015.09.09-07.02.28:061][236]LogMemory: 
+[2015.09.09-07.02.28:061][236]Allocator Stats for TBB: (not implemented)
+[2015.09.09-07.02.28:166][236]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-07.02.28:249][236]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.02.28:251][236]LogAIModule: Creating AISystem for world MainPage
+[2015.09.09-07.02.28:252][236]LogWorld: Bringing World /Game/UEDPIE_0_MainPage.MainPage up for play (max tick rate 0) at 2015.09.09-17.02.28
+[2015.09.09-07.02.28:252][236]LogWorld: Bringing up level for play took: 0.001029
+[2015.09.09-07.02.28:253][236]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.02.30:624][512]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve InfoPage.umap
+[2015.09.09-07.02.30:694][512]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve InfoPage.umap
+[2015.09.09-07.02.30:694][512]LogNet: Browse: /Game/InfoPage
+[2015.09.09-07.02.30:694][512]LogLoad: LoadMap: /Game/InfoPage
+[2015.09.09-07.02.30:722][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000121A2480
+[2015.09.09-07.02.30:722][512]Cmd: MEM
+[2015.09.09-07.02.30:745][512]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-07.02.30:745][512]LogMemory: Process Physical Memory: 960.72 MB used, 977.67 MB peak
+[2015.09.09-07.02.30:745][512]LogMemory: Process Virtual Memory: 861.17 MB used, 881.39 MB peak
+[2015.09.09-07.02.30:745][512]LogMemory: Physical Memory: 5875.37 MB used, 8066.43 MB total
+[2015.09.09-07.02.30:745][512]LogMemory: Virtual Memory: 1447.89 MB used, 8388608.00 MB total
+[2015.09.09-07.02.30:745][512]LogMemory: 
+[2015.09.09-07.02.30:745][512]Allocator Stats for TBB: (not implemented)
+[2015.09.09-07.02.30:750][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005198s)
+[2015.09.09-07.02.30:751][512]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2015.09.09-07.02.30:751][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfoPage.InfoPage to /Game/UEDPIE_0_InfoPage.InfoPage (0.005880s)
+[2015.09.09-07.02.30:752][512]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.02.30:754][512]LogAIModule: Creating AISystem for world InfoPage
+[2015.09.09-07.02.30:755][512]LogWorld: Bringing World /Game/UEDPIE_0_InfoPage.InfoPage up for play (max tick rate 0) at 2015.09.09-17.02.30
+[2015.09.09-07.02.30:755][512]LogWorld: Bringing up level for play took: 0.000980
+[2015.09.09-07.02.30:756][512]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.02.33:073][781]LogPackageName: SearchForPackageOnDisk took   0.071s to resolve MainPage.umap
+[2015.09.09-07.02.33:142][781]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve MainPage.umap
+[2015.09.09-07.02.33:142][781]LogNet: Browse: /Game/MainPage
+[2015.09.09-07.02.33:142][781]LogLoad: LoadMap: /Game/MainPage
+[2015.09.09-07.02.33:161][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010132D40
+[2015.09.09-07.02.33:168][781]Cmd: MEM
+[2015.09.09-07.02.33:190][781]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-07.02.33:190][781]LogMemory: Process Physical Memory: 960.72 MB used, 977.67 MB peak
+[2015.09.09-07.02.33:190][781]LogMemory: Process Virtual Memory: 861.17 MB used, 881.39 MB peak
+[2015.09.09-07.02.33:190][781]LogMemory: Physical Memory: 5875.02 MB used, 8066.43 MB total
+[2015.09.09-07.02.33:190][781]LogMemory: Virtual Memory: 1447.89 MB used, 8388608.00 MB total
+[2015.09.09-07.02.33:190][781]LogMemory: 
+[2015.09.09-07.02.33:190][781]Allocator Stats for TBB: (not implemented)
+[2015.09.09-07.02.33:263][781]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-07.02.33:346][781]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.02.33:348][781]LogAIModule: Creating AISystem for world MainPage
+[2015.09.09-07.02.33:349][781]LogWorld: Bringing World /Game/UEDPIE_0_MainPage.MainPage up for play (max tick rate 0) at 2015.09.09-17.02.33
+[2015.09.09-07.02.33:349][781]LogWorld: Bringing up level for play took: 0.001055
+[2015.09.09-07.02.33:350][781]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.02.35:411][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000317A8180
+[2015.09.09-07.03.40:839][774]BlueprintLog: New page: Compile InfoWidget
+[2015.09.09-07.03.40:945][774]BlueprintEditorCompileResults: Info [5945.47] Compile of InfoWidget successful! [in 105 ms]
+[2015.09.09-07.03.44:437][139]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.09-07.03.44:440][139]LogPlayLevel: [PIE] Compiling PatrollingEnemy before PIE...
+[2015.09.09-07.03.44:512][139]LogPlayLevel: [PIE] Compiling EndGamePickup before PIE...
+[2015.09.09-07.03.44:566][139]LogPlayLevel: [PIE] Compiling Pickup before PIE...
+[2015.09.09-07.03.44:619][139]LogPlayLevel: [PIE] Compiling TutorialPickup before PIE...
+[2015.09.09-07.03.44:671][139]LogPlayLevel: [PIE] Compiling GOPage3 before PIE...
+[2015.09.09-07.03.44:715][139]LogPlayLevel: [PIE] Compiling InfoPage before PIE...
+[2015.09.09-07.03.44:760][139]LogPlayLevel: [PIE] Compiling HUD before PIE...
+[2015.09.09-07.03.44:856][139]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.09-07.03.44:904][139]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.09.09-07.03.45:118][139]LogPlayLevel: [PIE] Compiling PickupMaster before PIE...
+[2015.09.09-07.03.45:194][139]LogPlayLevel: PIE:  Blueprint regeneration took 757 ms (10 blueprints)
+[2015.09.09-07.03.45:194][139]PIE: New page: PIE session: InfoPage (10 Sep 2015 3:03:45 am)
+[2015.09.09-07.03.45:199][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004865s)
+[2015.09.09-07.03.45:199][139]LogPlayLevel: PIE: World Init took: (0.000434s)
+[2015.09.09-07.03.45:200][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfoPage.InfoPage to /Game/UEDPIE_0_InfoPage.InfoPage (0.005440s)
+[2015.09.09-07.03.45:232][139]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.03.45:235][139]LogAIModule: Creating AISystem for world InfoPage
+[2015.09.09-07.03.45:235][139]LogWorld: Bringing World /Game/UEDPIE_0_InfoPage.InfoPage up for play (max tick rate 0) at 2015.09.09-17.03.45
+[2015.09.09-07.03.45:236][139]LogWorld: Bringing up level for play took: 0.000903
+[2015.09.09-07.03.45:239][139]PIE: Info Play in editor start time for /Game/UEDPIE_0_InfoPage 1.234
+[2015.09.09-07.03.46:822][317]LogPackageName: SearchForPackageOnDisk took   0.072s to resolve MainPage.umap
+[2015.09.09-07.03.46:891][317]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve MainPage.umap
+[2015.09.09-07.03.46:891][317]LogNet: Browse: /Game/MainPage
+[2015.09.09-07.03.46:891][317]LogLoad: LoadMap: /Game/MainPage
+[2015.09.09-07.03.46:917][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000345C0FE0
+[2015.09.09-07.03.46:917][317]Cmd: MEM
+[2015.09.09-07.03.46:937][317]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-07.03.46:938][317]LogMemory: Process Physical Memory: 971.93 MB used, 977.67 MB peak
+[2015.09.09-07.03.46:938][317]LogMemory: Process Virtual Memory: 873.30 MB used, 881.39 MB peak
+[2015.09.09-07.03.46:938][317]LogMemory: Physical Memory: 5888.59 MB used, 8066.43 MB total
+[2015.09.09-07.03.46:938][317]LogMemory: Virtual Memory: 1464.78 MB used, 8388608.00 MB total
+[2015.09.09-07.03.46:938][317]LogMemory: 
+[2015.09.09-07.03.46:938][317]Allocator Stats for TBB: (not implemented)
+[2015.09.09-07.03.47:043][317]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-07.03.47:127][317]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.03.47:129][317]LogAIModule: Creating AISystem for world MainPage
+[2015.09.09-07.03.47:130][317]LogWorld: Bringing World /Game/UEDPIE_0_MainPage.MainPage up for play (max tick rate 0) at 2015.09.09-17.03.47
+[2015.09.09-07.03.47:130][317]LogWorld: Bringing up level for play took: 0.001077
+[2015.09.09-07.03.47:131][317]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.03.48:056][417]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve InfoPage.umap
+[2015.09.09-07.03.48:124][417]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve InfoPage.umap
+[2015.09.09-07.03.48:124][417]LogNet: Browse: /Game/InfoPage
+[2015.09.09-07.03.48:125][417]LogLoad: LoadMap: /Game/InfoPage
+[2015.09.09-07.03.48:151][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011ECD6C0
+[2015.09.09-07.03.48:151][417]Cmd: MEM
+[2015.09.09-07.03.48:172][417]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-07.03.48:172][417]LogMemory: Process Physical Memory: 970.90 MB used, 977.67 MB peak
+[2015.09.09-07.03.48:172][417]LogMemory: Process Virtual Memory: 871.37 MB used, 881.39 MB peak
+[2015.09.09-07.03.48:172][417]LogMemory: Physical Memory: 5888.31 MB used, 8066.43 MB total
+[2015.09.09-07.03.48:172][417]LogMemory: Virtual Memory: 1462.84 MB used, 8388608.00 MB total
+[2015.09.09-07.03.48:172][417]LogMemory: 
+[2015.09.09-07.03.48:172][417]Allocator Stats for TBB: (not implemented)
+[2015.09.09-07.03.48:177][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005220s)
+[2015.09.09-07.03.48:178][417]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2015.09.09-07.03.48:178][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfoPage.InfoPage to /Game/UEDPIE_0_InfoPage.InfoPage (0.005791s)
+[2015.09.09-07.03.48:179][417]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.03.48:180][417]LogAIModule: Creating AISystem for world InfoPage
+[2015.09.09-07.03.48:181][417]LogWorld: Bringing World /Game/UEDPIE_0_InfoPage.InfoPage up for play (max tick rate 0) at 2015.09.09-17.03.48
+[2015.09.09-07.03.48:182][417]LogWorld: Bringing up level for play took: 0.000935
+[2015.09.09-07.03.48:182][417]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.03.49:257][535]LogPackageName: SearchForPackageOnDisk took   0.068s to resolve MainPage.umap
+[2015.09.09-07.03.49:325][535]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve MainPage.umap
+[2015.09.09-07.03.49:326][535]LogNet: Browse: /Game/MainPage
+[2015.09.09-07.03.49:326][535]LogLoad: LoadMap: /Game/MainPage
+[2015.09.09-07.03.49:344][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B11800
+[2015.09.09-07.03.49:349][535]Cmd: MEM
+[2015.09.09-07.03.49:370][535]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-07.03.49:370][535]LogMemory: Process Physical Memory: 970.89 MB used, 977.67 MB peak
+[2015.09.09-07.03.49:370][535]LogMemory: Process Virtual Memory: 871.33 MB used, 881.39 MB peak
+[2015.09.09-07.03.49:370][535]LogMemory: Physical Memory: 5887.30 MB used, 8066.43 MB total
+[2015.09.09-07.03.49:370][535]LogMemory: Virtual Memory: 1458.03 MB used, 8388608.00 MB total
+[2015.09.09-07.03.49:370][535]LogMemory: 
+[2015.09.09-07.03.49:370][535]Allocator Stats for TBB: (not implemented)
+[2015.09.09-07.03.49:443][535]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-07.03.49:526][535]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.03.49:528][535]LogAIModule: Creating AISystem for world MainPage
+[2015.09.09-07.03.49:529][535]LogWorld: Bringing World /Game/UEDPIE_0_MainPage.MainPage up for play (max tick rate 0) at 2015.09.09-17.03.49
+[2015.09.09-07.03.49:529][535]LogWorld: Bringing up level for play took: 0.001069
+[2015.09.09-07.03.49:530][535]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.03.51:490][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030A60FE0
+[2015.09.09-07.03.56:450][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfoPage" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/InfoPage.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.09-07.03.56:564][233]LogSavePackage: Save=78.601021ms
+[2015.09.09-07.03.56:564][233]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/InfoPageE1FB71304D32050B93B7D0A14E3B89DB.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/InfoPage.umap'
+[2015.09.09-07.03.59:200][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfoWidget" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/InfoWidget.uasset" SILENT=true
+[2015.09.09-07.03.59:233][510]LogSavePackage: Save=20.474710ms
+[2015.09.09-07.03.59:233][510]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/InfoWidgetC61D4FED478BBF34E9B54E84F75DCA0A.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/InfoWidget.uasset'
+[2015.09.09-07.05.26:779][832]BlueprintLog: New page: Compile MainMenu
+[2015.09.09-07.05.26:874][832]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000182BB380
+[2015.09.09-07.05.26:874][832]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000182B9F80
+[2015.09.09-07.05.26:875][832]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E6E2B60
+[2015.09.09-07.05.26:900][832]BlueprintEditorCompileResults: Info [6051.42] Compile of MainMenu successful! [in 119 ms]
+[2015.09.09-07.05.27:751][929]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.09-07.05.27:754][929]LogPlayLevel: [PIE] Compiling PatrollingEnemy before PIE...
+[2015.09.09-07.05.27:827][929]LogPlayLevel: [PIE] Compiling EndGamePickup before PIE...
+[2015.09.09-07.05.27:882][929]LogPlayLevel: [PIE] Compiling Pickup before PIE...
+[2015.09.09-07.05.27:937][929]LogPlayLevel: [PIE] Compiling TutorialPickup before PIE...
+[2015.09.09-07.05.27:989][929]LogPlayLevel: [PIE] Compiling GOPage3 before PIE...
+[2015.09.09-07.05.28:032][929]LogPlayLevel: [PIE] Compiling InfoPage before PIE...
+[2015.09.09-07.05.28:078][929]LogPlayLevel: [PIE] Compiling HUD before PIE...
+[2015.09.09-07.05.28:174][929]LogPlayLevel: [PIE] Compiling PauseMenu before PIE...
+[2015.09.09-07.05.28:224][929]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.09.09-07.05.28:439][929]LogPlayLevel: [PIE] Compiling PickupMaster before PIE...
+[2015.09.09-07.05.28:514][929]LogPlayLevel: PIE:  Blueprint regeneration took 763 ms (10 blueprints)
+[2015.09.09-07.05.28:515][929]PIE: New page: PIE session: InfoPage (10 Sep 2015 3:05:28 am)
+[2015.09.09-07.05.28:520][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004930s)
+[2015.09.09-07.05.28:521][929]LogPlayLevel: PIE: World Init took: (0.000472s)
+[2015.09.09-07.05.28:521][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfoPage.InfoPage to /Game/UEDPIE_0_InfoPage.InfoPage (0.005543s)
+[2015.09.09-07.05.28:558][929]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.05.28:560][929]LogAIModule: Creating AISystem for world InfoPage
+[2015.09.09-07.05.28:561][929]LogWorld: Bringing World /Game/UEDPIE_0_InfoPage.InfoPage up for play (max tick rate 0) at 2015.09.09-17.05.28
+[2015.09.09-07.05.28:561][929]LogWorld: Bringing up level for play took: 0.000907
+[2015.09.09-07.05.28:562][929]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.05.28:572][929]PIE: Info Play in editor start time for /Game/UEDPIE_0_InfoPage 0.566
+[2015.09.09-07.05.28:591][929]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:33474).
+[2015.09.09-07.05.28:591][929]LogPropertyNode: Object is invalid Slot
+[2015.09.09-07.05.28:591][929]LogPropertyNode: Object is invalid Navigation
+[2015.09.09-07.05.30:216][ 77]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve MainPage.umap
+[2015.09.09-07.05.30:285][ 77]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve MainPage.umap
+[2015.09.09-07.05.30:285][ 77]LogNet: Browse: /Game/MainPage
+[2015.09.09-07.05.30:285][ 77]LogLoad: LoadMap: /Game/MainPage
+[2015.09.09-07.05.30:311][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000123160C0
+[2015.09.09-07.05.30:311][ 77]Cmd: MEM
+[2015.09.09-07.05.30:334][ 77]LogMemory: Platform Memory Stats for Windows
+[2015.09.09-07.05.30:334][ 77]LogMemory: Process Physical Memory: 975.47 MB used, 989.98 MB peak
+[2015.09.09-07.05.30:334][ 77]LogMemory: Process Virtual Memory: 875.54 MB used, 890.42 MB peak
+[2015.09.09-07.05.30:334][ 77]LogMemory: Physical Memory: 5887.40 MB used, 8066.43 MB total
+[2015.09.09-07.05.30:334][ 77]LogMemory: Virtual Memory: 1470.51 MB used, 8388608.00 MB total
+[2015.09.09-07.05.30:334][ 77]LogMemory: 
+[2015.09.09-07.05.30:334][ 77]Allocator Stats for TBB: (not implemented)
+[2015.09.09-07.05.30:438][ 77]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.09-07.05.30:521][ 77]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.09.09-07.05.30:523][ 77]LogAIModule: Creating AISystem for world MainPage
+[2015.09.09-07.05.30:524][ 77]LogWorld: Bringing World /Game/UEDPIE_0_MainPage.MainPage up for play (max tick rate 0) at 2015.09.09-17.05.30
+[2015.09.09-07.05.30:524][ 77]LogWorld: Bringing up level for play took: 0.001042
+[2015.09.09-07.05.30:525][ 77]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.09-07.05.38:820][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C831A80
+[2015.09.09-07.05.42:757][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MainMenu.uasset" SILENT=true
+[2015.09.09-07.05.42:825][343]LogSavePackage: Save=53.503273ms
+[2015.09.09-07.05.42:825][343]LogSavePackage: Moving '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Saved/MainMenu9FDDF7B6407E9A2DFDBE8F97208ADBAB.tmp' to '../../../../../../Users/Admin/Documents/Miguel/Unreal Projects/StealthEscape/Content/MainMenu.uasset'
+[2015.09.09-07.06.33:696][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000329BC860
+[2015.09.09-07.06.33:810][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011DE4AE0
+[2015.09.09-07.06.34:029][ 35]Cmd: QUIT_EDITOR
+[2015.09.09-07.06.34:239][ 35]LogExit: Preparing to exit.
+[2015.09.09-07.06.34:552][ 35]LogExit: Editor shut down
+[2015.09.09-07.06.34:552][ 35]LogExit: Transaction tracking system shut down
+[2015.09.09-07.06.34:554][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000008D18720
+[2015.09.09-07.06.34:554][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023442E80
+[2015.09.09-07.06.34:554][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025BAFC40
+[2015.09.09-07.06.34:554][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025ACA660
+[2015.09.09-07.06.34:628][ 35]LogExit: Object subsystem successfully closed.
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module SequencerWidgets (178)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.09.09-07.06.34:695][ 35]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.09.09-07.06.34:696][ 35]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.09.09-07.06.35:479][ 35]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.09.09-07.06.35:541][ 35]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.09.09-07.06.35:541][ 35]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.09.09-07.06.35:541][ 35]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.09.09-07.06.35:542][ 35]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.09.09-07.06.35:725][ 35]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.09.09-07.06.35:726][ 35]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.09.09-07.06.35:726][ 35]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.09.09-07.06.35:726][ 35]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.09.09-07.06.35:826][ 35]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.09.09-07.06.35:826][ 35]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.09.09-07.06.35:828][ 35]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.09.09-07.06.35:828][ 35]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.09.09-07.06.35:828][ 35]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.09.09-07.06.35:828][ 35]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.09.09-07.06.35:828][ 35]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.09.09-07.06.35:828][ 35]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.09.09-07.06.35:828][ 35]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.09.09-07.06.35:829][ 35]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.09.09-07.06.35:829][ 35]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.09.09-07.06.35:829][ 35]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.09.09-07.06.35:829][ 35]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.09.09-07.06.35:829][ 35]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.09.09-07.06.35:829][ 35]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.09.09-07.06.35:829][ 35]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.09.09-07.06.35:829][ 35]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.09.09-07.06.35:837][ 35]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.09.09-07.06.35:845][ 35]LogDerivedDataCache: Shutdown
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.09-07.06.35:845][ 35]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.09-07.06.35:849][ 35]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.09-07.06.35:849][ 35]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.09-07.06.35:849][ 35]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.09-07.06.35:849][ 35]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.09-07.06.35:849][ 35]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.09-07.06.35:849][ 35]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.09-07.06.35:849][ 35]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.09-07.06.35:849][ 35]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.09-07.06.35:849][ 35]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.09-07.06.35:851][ 35]LogExit: Exiting.
+[2015.09.09-07.06.35:856][ 35]Log file closed, 09/09/15 17:06:35
